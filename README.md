@@ -110,6 +110,7 @@ See the [Changelog](CHANGELOG.md) for more information.
 - Add typescript types
 - Implement `yargs` for cli
 - Improve status bar
+- Automise npm publish
 
 ## License
 

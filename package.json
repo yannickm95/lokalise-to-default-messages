@@ -1,22 +1,21 @@
 {
-  "name": "lokalise-to-default-messages",
+  "name": "@hatlaron/lokalise-to-default-messages",
   "version": "0.1.0",
   "description": "Utility to update defaultMessages in source code with values from translation json file",
   "homepage": "https://github.com/yannickm95/lokalise-to-default-messages#readme",
-  "author": {
-    "name": "Yannick Maes",
-    "email": "yannick.maes@niprodigital.com"
-  },
+  "author": "Yannick Maes <yannick.maes@niprodigital.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yannickm95/lokalise-to-default-messages.git"
+    "url": "git+https://github.com/yannickm95/lokalise-to-default-messages.git"
   },
   "bugs": {
     "url": "https://github.com/yannickm95/lokalise-to-default-messages/issues"
   },
   "main": "index.js",
-  "bin": "./bin/cli.js",
+  "bin": {
+    "lokalise-to-default-messages": "bin/cli.js"
+  },
   "types": "./types/index.d.ts",
   "engines": {
     "node": ">=10"
@@ -62,5 +61,13 @@
         }
       ]
     ]
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "Replace",
+    "defaultMessages",
+    "translation-file"
+  ]
 }
