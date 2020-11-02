@@ -1,6 +1,6 @@
 {
-  "name": "@hatlaron/lokalise-to-default-messages",
-  "version": "0.1.0",
+  "name": "lokalise-to-default-messages",
+  "version": "0.1.1",
   "description": "Utility to update defaultMessages in source code with values from translation json file",
   "homepage": "https://github.com/yannickm95/lokalise-to-default-messages#readme",
   "author": "Yannick Maes <yannick.maes@niprodigital.com>",
@@ -14,7 +14,7 @@
   },
   "main": "index.js",
   "bin": {
-    "lokalise-to-default-messages": "bin/cli.js"
+    "ltdm": "bin/cli.js"
   },
   "types": "./types/index.d.ts",
   "engines": {

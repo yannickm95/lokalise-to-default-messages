@@ -4,7 +4,7 @@
 /**
  * Dependencies
  */
-const lokalise = require("../lib/replace-in-file");
+const lokalise = require("../lib/lokalise-to-default-messages");
 
 /**
  * Main routine
