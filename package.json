@@ -25,7 +25,7 @@
     "lint": "eslint --ext ts,tsx,js,jsx .",
     "postpublish": "git push origin --all; git push origin --tags",
     "preversion": "yarn prettier",
-    "postversion": "npm publish --access public",
+    "postversion": "npm publish",
     "patch": "npm version patch",
     "minor": "npm version minor",
     "major": "npm version major"
