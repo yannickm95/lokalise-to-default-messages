@@ -23,9 +23,9 @@
   "scripts": {
     "prettier": "prettier --write './**/*.{ts,tsx,js,jsx,json,css,scss}'",
     "lint": "eslint --ext ts,tsx,js,jsx .",
-    "postpublish": "git push origin --all; git push origin --tags",
     "preversion": "yarn prettier",
-    "postversion": "npm publish"
+    "postversion": "npm publish",
+    "postpublish": "git push origin --all; git push origin --tags"
   },
   "dependencies": {
     "cli-progress": "^3.8.2",
