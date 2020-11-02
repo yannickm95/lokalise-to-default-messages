@@ -43,11 +43,11 @@ the source code `defaultMessages` should have this structure:
 
 ```js
 const t = defineMessages({
-  closeTitle: {
+  exampleTitle: {
     id: "example_title",
     defaultMessage: "Example title",
   },
-  submitTitle: { id: "example_title_two", defaultMessage: "Example 2" },
+  exampleTitleTwo: { id: "example_title_two", defaultMessage: "Example 2" },
 });
 ```
 
