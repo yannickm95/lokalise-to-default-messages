@@ -61,7 +61,18 @@ const options = {};
 
 ### Replace values
 
-Not yet supported.
+pass the following options to replace values:
+
+```js
+ltdm.toDefaultMessages({
+  checkDuplicates: false,
+  saveLog: false,
+  filesPath: "/src/**/*.{ts,tsx,js,jsx}",
+  translationsPath: "src/translations/en.json",
+});
+```
+
+The default options are filled in the example.
 
 ### Check duplicates
 
