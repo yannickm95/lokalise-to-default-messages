@@ -107,7 +107,7 @@ This will save a log file under `lokalise_log.md`
 
 ## Version information
 
-From version 0.1.0 onwards, replace in file requires Node 10 or higher.
+From version 0.1.0 onwards, lokalise to default messages requires Node 10 or higher.
 
 See the [Changelog](CHANGELOG.md) for more information.
 
