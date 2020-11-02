@@ -21,10 +21,14 @@
     "node": ">=10"
   },
   "scripts": {
-    "publish": "npm publish --access public",
-    "postversion": "git push && git push --tags && yarn publish",
     "prettier": "prettier --write './**/*.{ts,tsx,js,jsx,json,css,scss}'",
-    "lint": "eslint --ext ts,tsx,js,jsx ."
+    "lint": "eslint --ext ts,tsx,js,jsx .",
+    "postpublish": "git push origin --all; git push origin --tags",
+    "preversion": "yarn prettier",
+    "postversion": "npm publish --access public",
+    "patch": "npm version patch",
+    "minor": "npm version minor",
+    "major": "npm version major"
   },
   "dependencies": {
     "cli-progress": "^3.8.2",
