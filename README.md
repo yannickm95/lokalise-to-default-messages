@@ -85,7 +85,7 @@ Not yet supported.
 ## CLI usage
 
 ```sh
-lokalise-to-default-messages
+ltdm
   [--duplicate-keys] | [-dk]
   [--save-log] | [-sl]
   [--files-path=src/**/*.{ts,tsx,js,jsx}] | [-fp]
