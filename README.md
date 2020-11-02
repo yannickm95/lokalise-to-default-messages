@@ -1,4 +1,4 @@
-# Replace in file
+# Lokalise to defaultMessages
 
 Utility to update defaultMessages in source code with values from translation json file. Can also check for duplicate keys and create a diff of keys from 2 different translations file.
 
