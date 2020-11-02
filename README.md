@@ -111,6 +111,7 @@ See the [Changelog](CHANGELOG.md) for more information.
 - Implement `yargs` for cli
 - Improve status bar
 - Automise npm publish
+- Add changelog to release
 
 ## License
 

@@ -21,7 +21,8 @@
     "node": ">=10"
   },
   "scripts": {
-    "postversion": "git push && git push --tags && npm publish --access public",
+    "publish": "npm publish --access public",
+    "postversion": "git push && git push --tags && yarn publish",
     "prettier": "prettier --write './**/*.{ts,tsx,js,jsx,json,css,scss}'",
     "lint": "eslint --ext ts,tsx,js,jsx ."
   },
