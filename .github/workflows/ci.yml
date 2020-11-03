@@ -34,6 +34,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          path: 'main'
       - name: Set version
         run: |
           echo ::set-env name=VERSION::${GITHUB_REF/refs\/tags\//}
@@ -45,11 +47,12 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Generate Changelog
         run: yarn auto-changelog --commit-limit false --starting-version {{env.VERSION}} -o VERSION.md --hide-credit
+        working-directory: ./main
       - name: Read file
         id: changelog
         uses: juliangruber/read-file-action@v1.0.0
         with:
-          path: './VERSION.md'
+          path: './main/VERSION.md'
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -64,4 +67,4 @@ jobs:
       - name: Remove File
         uses: JesseTG/rm@v1.0.2
         with:
-          path: './VERSION.md'
+          path: './main/VERSION.md'
