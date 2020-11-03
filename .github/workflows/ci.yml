@@ -50,13 +50,13 @@ jobs:
           fetch-depth: 0
       - name: Set version
         run: |
-          echo "tag_version=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_ENV
+          echo "TAG_VERSION=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_ENV
       - name: Setup node
         uses: actions/setup-node@v2.1.2
         with:
           node-version: "12.x"
       - name: Generate Changelog
-        run: npx auto-changelog --commit-limit 'false' --starting-version $tag_version -o 'VERSION.md' --hide-credit
+        run: npx auto-changelog --commit-limit 'false' --starting-version $TAG_VERSION -o 'VERSION.md' --hide-credit
       - name: Read file
         id: changelog
         uses: juliangruber/read-file-action@v1.0.0
@@ -69,7 +69,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
-          release_name: Release ${{ env.tag_version }}
+          release_name: Release ${{ env.TAG_VERSION }}
           body: ${{ steps.changelog.outputs.content }}
           draft: false
           prerelease: false
@@ -88,15 +88,28 @@ jobs:
         uses: actions/setup-node@v2.1.2
         with:
           node-version: "12.x"
+      - name: Get Branch
+        run: |
+          raw=$(git branch -r --contains ${{ github.ref }})
+          echo "BRANCH_NAME=${raw/origin\/}" >> $GITHUB_ENV
       - name: Checkout code
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-          ref: main
+          ref: ${{ env.BRANCH_NAME }}
       - name: Run auto-changelog
         run: npx auto-changelog --commit-limit 'false' --hide-credit
-      - name: Commit and push Changelog
+      - name: Commit and push Changelog to main
+        if: env.BRANCH_NAME = 'main'
         run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -am ":notebook: Update changelog" || echo "No changes to commit"
+          git push || echo "Nothing to push"
+      - name: Commit and push Changelog to other branch
+        if: env.BRANCH_NAME != 'main'
+        run: |
+          git checkout -b "patch/update-changelog"
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -am ":notebook: Update changelog" || echo "No changes to commit"
