@@ -24,7 +24,7 @@
     "prettier": "prettier --write './**/*.{ts,tsx,js,jsx,json,css,scss}'",
     "lint": "eslint --ext ts,tsx,js,jsx .",
     "postversion": "git push origin --all; git push origin --tags",
-    "changelog": "auto-changelog -u --commit-limit false"
+    "changelog": "auto-changelog -u --hide-credit --commit-limit false"
   },
   "dependencies": {
     "cli-progress": "^3.8.2",
