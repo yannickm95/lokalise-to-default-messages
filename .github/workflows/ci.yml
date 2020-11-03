@@ -2,39 +2,53 @@ on: push
 
 name: CI / Create Release
 jobs:
-  # analyze:
-  #   name: Analyze
-  #   runs-on: ubuntu-latest
-  #   if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v'))
+  analyze:
+    name: Analyze
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v'))
 
-  #   strategy:
-  #     fail-fast: false
-  #     matrix:
-  #       language: [ 'javascript' ]
-        
-  #   steps:
-  #   - name: Checkout repository
-  #     uses: actions/checkout@v2
+    strategy:
+      fail-fast: false
+      matrix:
+        language: ["javascript"]
 
-  #   # Initializes the CodeQL tools for scanning.
-  #   - name: Initialize CodeQL
-  #     uses: github/codeql-action/init@v1
-  #     with:
-  #       languages: ${{ matrix.language }}
-  #   - name: Autobuild
-  #     uses: github/codeql-action/autobuild@v1
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-  #   - name: Perform CodeQL Analysis
-  #     uses: github/codeql-action/analyze@v1
-  build:
+      # Initializes the CodeQL tools for scanning.
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v1
+        with:
+          languages: ${{ matrix.language }}
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v1
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v1
+
+  publish:
+    needs: [analyze]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+
+  release:
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
     name: Create Release
-    # needs: [analyze]
+    needs: [build]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with: 
+        with:
           fetch-depth: 0
       - name: Set version
         run: |
@@ -42,14 +56,14 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v2.1.2
         with:
-          node-version: '12.x'
+          node-version: "12.x"
       - name: Generate Changelog
         run: npx auto-changelog --commit-limit 'false' --starting-version ${{ env.VERSION }} -o 'VERSION.md' --hide-credit
       - name: Read file
         id: changelog
         uses: juliangruber/read-file-action@v1.0.0
         with:
-          path: './VERSION.md'
+          path: "./VERSION.md"
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -64,16 +78,17 @@ jobs:
       - name: Remove File
         uses: JesseTG/rm@v1.0.2
         with:
-          path: './VERSION.md'
+          path: "./VERSION.md"
+
   changelog:
     name: Update main changelog
-    needs: [build]
+    needs: [release]
     runs-on: ubuntu-latest
     steps:
       - name: Setup node
         uses: actions/setup-node@v2.1.2
         with:
-          node-version: '12.x'
+          node-version: "12.x"
       - name: Checkout code
         uses: actions/checkout@v2
         with:
@@ -87,4 +102,3 @@ jobs:
           git config --local user.name "GitHub Action"
           git commit -am "📖 DOC: Changelog" || echo "No changes to commit"
           git push || echo "Nothing to push"
-
