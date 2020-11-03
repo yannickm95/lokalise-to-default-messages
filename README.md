@@ -122,6 +122,7 @@ See the [Changelog](CHANGELOG.md) for more information.
 - Implement `yargs` for cli
 - Improve status bar
 - Add changelog to release
+- Support dry run for `defaultToMessages` without changes
 - Create package github action
 
 ## License
