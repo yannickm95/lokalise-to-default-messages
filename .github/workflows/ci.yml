@@ -50,7 +50,7 @@ jobs:
           fetch-depth: 0
       - name: Set version
         run: |
-          echo "tag_version=${GITHUB_REF/refs\/tags\//" >> $GITHUB_ENV
+          echo "tag_version=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_ENV
       - name: Setup node
         uses: actions/setup-node@v2.1.2
         with:
