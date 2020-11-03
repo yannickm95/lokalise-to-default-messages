@@ -59,7 +59,7 @@ const ltdm = require("lokalise-to-default-messages");
 const options = {};
 ```
 
-### Replace values
+### Replace values (Not yet supported)
 
 pass the following options to replace values:
 
