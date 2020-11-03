@@ -69,7 +69,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
-          release_name: Release $tag_version
+          release_name: Release ${{ tag_version }}
           body: ${{ steps.changelog.outputs.content }}
           draft: false
           prerelease: false
