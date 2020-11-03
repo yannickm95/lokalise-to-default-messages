@@ -2,34 +2,30 @@ on: push
 
 name: CI / Create Release
 jobs:
-  #   analyze:
-  #     name: Analyze
-  #     runs-on: ubuntu-latest
-  #     if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v'))
-
-  #     strategy:
-  #       fail-fast: false
-  #       matrix:
-  #         language: ["javascript"]
-
-  #     steps:
-  #       - name: Checkout repository
-  #         uses: actions/checkout@v2
-
-  #       # Initializes the CodeQL tools for scanning.
-  #       - name: Initialize CodeQL
-  #         uses: github/codeql-action/init@v1
-  #         with:
-  #           languages: ${{ matrix.language }}
-  #       - name: Autobuild
-  #         uses: github/codeql-action/autobuild@v1
-
-  #       - name: Perform CodeQL Analysis
-  #         uses: github/codeql-action/analyze@v1
+  analyze:
+    name: Analyze
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v'))
+    strategy:
+      fail-fast: false
+      matrix:
+        language: ["javascript"]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      # Initializes the CodeQL tools for scanning.
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v1
+        with:
+          languages: ${{ matrix.language }}
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v1
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v1
 
   publish-npm:
     name: "Publish to NPM"
-    # needs: [analyze]
+    needs: [analyze]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -40,20 +36,6 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-
-  publish-gpr:
-    name: "Publish to Github Packages"
-    # needs: [analyze]
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://npm.pkg.github.com/
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
   release:
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
@@ -97,7 +79,7 @@ jobs:
 
   changelog:
     name: Update main changelog
-    needs: [release]
+    needs: [publish-npm]
     runs-on: ubuntu-latest
     steps:
       - name: Setup node
