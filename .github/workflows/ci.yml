@@ -35,7 +35,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with: 
-          ref: '{{github.ref}}'
+          fetch-depth: 0
       - name: Set version
         run: |
           echo ::set-env name=VERSION::${GITHUB_REF/refs\/tags\//}
