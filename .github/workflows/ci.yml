@@ -99,5 +99,5 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -am "📖  DOC: Changelog" || echo "No changes to commit"
+          git commit -am ":notebook: Update changelog" || echo "No changes to commit"
           git push || echo "Nothing to push"
