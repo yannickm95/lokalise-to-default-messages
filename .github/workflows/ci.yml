@@ -100,7 +100,7 @@ jobs:
       - name: Run auto-changelog
         run: npx auto-changelog --commit-limit 'false' --hide-credit
       - name: Commit and push Changelog to main
-        if: env.BRANCH_NAME = 'main'
+        if: env.BRANCH_NAME == 'main'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
