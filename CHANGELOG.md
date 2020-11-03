@@ -1,5 +1,7 @@
 ### Changelog
 
+f
+
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
 #### [v0.3.5](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.3.4...v0.3.5)
@@ -14,14 +16,14 @@ All notable changes to this project will be documented in this file. Dates are d
 
 > 3 November 2020
 
-- 📖  DOC: Changelog [`768f6e9`](https://github.com/yannickm95/lokalise-to-default-messages/commit/768f6e9d7c85238e96c464a462db9a0f432d6606)
+- 📖 DOC: Changelog [`768f6e9`](https://github.com/yannickm95/lokalise-to-default-messages/commit/768f6e9d7c85238e96c464a462db9a0f432d6606)
 - Update ci.yml [`3718b2e`](https://github.com/yannickm95/lokalise-to-default-messages/commit/3718b2e9d76d46d2267e05ac65332b558eb562a5)
 
 #### [v0.3.3](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.3.2...v0.3.3)
 
 > 3 November 2020
 
-- 📖  DOC: Changelog [`c360c5e`](https://github.com/yannickm95/lokalise-to-default-messages/commit/c360c5e02a87e52a1e978a3e5f46d2938347155a)
+- 📖 DOC: Changelog [`c360c5e`](https://github.com/yannickm95/lokalise-to-default-messages/commit/c360c5e02a87e52a1e978a3e5f46d2938347155a)
 - Fix missing { :man_facepalming: [`dcb722b`](https://github.com/yannickm95/lokalise-to-default-messages/commit/dcb722b0c40faee6e4808eb29771a7fcd55f2fc4)
 
 #### [v0.3.2](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.3.1...v0.3.2)
