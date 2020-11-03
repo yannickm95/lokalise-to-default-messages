@@ -34,7 +34,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with: {{github.ref}}
+        with: 
+          ref: '{{github.ref}}'
       - name: Set version
         run: |
           echo ::set-env name=VERSION::${GITHUB_REF/refs\/tags\//}
