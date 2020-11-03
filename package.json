@@ -23,7 +23,6 @@
   "scripts": {
     "prettier": "prettier --write './**/*.{ts,tsx,js,jsx,json,css,scss}'",
     "lint": "eslint --ext ts,tsx,js,jsx .",
-    "preversion": "yarn changelog && git add -A",
     "postversion": "git push origin --all; git push origin --tags",
     "changelog": "auto-changelog -u --commit-limit false"
   },

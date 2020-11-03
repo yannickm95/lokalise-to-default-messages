@@ -45,6 +45,7 @@ jobs:
           node-version: '12.x'
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+        working-directory: ./main
       - name: Generate Changelog
         run: yarn auto-changelog --commit-limit false --starting-version {{env.VERSION}} -o VERSION.md --hide-credit
         working-directory: ./main
