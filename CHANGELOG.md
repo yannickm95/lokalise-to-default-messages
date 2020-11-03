@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [v0.3.4](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.3.3...v0.3.4)
+
+> 3 November 2020
+
+- 📖  DOC: Changelog [`768f6e9`](https://github.com/yannickm95/lokalise-to-default-messages/commit/768f6e9d7c85238e96c464a462db9a0f432d6606)
+- Update ci.yml [`3718b2e`](https://github.com/yannickm95/lokalise-to-default-messages/commit/3718b2e9d76d46d2267e05ac65332b558eb562a5)
+
 #### [v0.3.3](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.3.2...v0.3.3)
 
 > 3 November 2020
