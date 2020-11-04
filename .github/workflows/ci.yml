@@ -84,7 +84,6 @@ jobs:
     needs: [publish-npm]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
       - name: Setup node
         uses: actions/setup-node@v2.1.2
         with:
@@ -97,20 +96,11 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-          ref: ${{ env.BRANCH_NAME }}
+          ref: main
       - name: Run auto-changelog
         run: npx auto-changelog --commit-limit 'false' --hide-credit
-      - name: Commit and push Changelog to main
-        if: env.BRANCH_NAME == 'main'
+      - name: Commit and push Changelog
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -am ":notebook: Update changelog" || echo "No changes to commit"
-          git push || echo "Nothing to push"
-      - name: Commit and push Changelog to other branch
-        if: env.BRANCH_NAME != 'main'
-        run: |
-          git checkout -b "patch/update-changelog"
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -am ":notebook: Update changelog" || echo "No changes to commit"
