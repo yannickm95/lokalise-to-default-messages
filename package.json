@@ -25,7 +25,8 @@
     "lint": "eslint --ext ts,tsx,js,jsx .",
     "version": "npx auto-changelog --commit-limit 'false' --hide-credit; git add CHANGELOG.md ",
     "postversion": "git push origin --all; git push origin --tags",
-    "changelog": "auto-changelog -u --hide-credit --commit-limit false"
+    "changelog": "auto-changelog -u --hide-credit --commit-limit false",
+    "pcu": "yarn changelog; git add CHANGELOG.md; git commit -m ':notebook: Update Changelog'; git push"
   },
   "dependencies": {
     "cli-progress": "^3.8.2",
