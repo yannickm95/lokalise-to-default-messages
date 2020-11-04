@@ -88,10 +88,6 @@ jobs:
         uses: actions/setup-node@v2.1.2
         with:
           node-version: "12.x"
-      - name: Get Branch
-        run: |
-          raw=$(git branch -r --contains ${{ github.ref }})
-          echo "BRANCH_NAME=${raw/origin\/}" >> $GITHUB_ENV
       - name: Checkout code
         uses: actions/checkout@v2
         with:
