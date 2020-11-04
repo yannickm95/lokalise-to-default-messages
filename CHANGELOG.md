@@ -2,6 +2,40 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [v0.4.4](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.3...v0.4.4)
+
+> 4 November 2020
+
+- Finalize ci automisation [`43d1128`](https://github.com/yannickm95/lokalise-to-default-messages/commit/43d1128602c5649e13e9a3350d090e646713cc41)
+- Test run [`90eb650`](https://github.com/yannickm95/lokalise-to-default-messages/commit/90eb6502ef58394fb0bfb51b1cb2f466b54171f7)
+- Test ci [`c47d1bb`](https://github.com/yannickm95/lokalise-to-default-messages/commit/c47d1bb302f2d4fce1d834f0a5c89a25e8ecd0d1)
+
+#### [v0.4.3](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.2...v0.4.3)
+
+> 4 November 2020
+
+- Last fixes [`a879fea`](https://github.com/yannickm95/lokalise-to-default-messages/commit/a879fea8a7fc19a8f7830e90b01eaaa8e4fbe942)
+
+#### [v0.4.2](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.1...v0.4.2)
+
+> 4 November 2020
+
+- Fix ci.yml [`69dce73`](https://github.com/yannickm95/lokalise-to-default-messages/commit/69dce7353d5f74fb2eac2f003a624c0ba75c60de)
+
+#### [v0.4.1](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.0...v0.4.1)
+
+> 4 November 2020
+
+- Update ci.yml [`6bbc3a0`](https://github.com/yannickm95/lokalise-to-default-messages/commit/6bbc3a001c5286853173f4a696e704d5b559d051)
+
+#### [v0.4.0](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.3.5...v0.4.0)
+
+> 4 November 2020
+
+- update ci.yml [`6410f59`](https://github.com/yannickm95/lokalise-to-default-messages/commit/6410f59da95859dd87aba329c1283168440a29ce)
+- :notebook: Update changelog [`6320c0e`](https://github.com/yannickm95/lokalise-to-default-messages/commit/6320c0e577a3c3ab3e32499a81afe1dfaf6bc38c)
+- Fix ci some more [`c5a1fc7`](https://github.com/yannickm95/lokalise-to-default-messages/commit/c5a1fc734662ad3cfee3f267f3d241948931dd2f)
+
 #### [v0.3.5](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.3.4...v0.3.5)
 
 > 4 November 2020
