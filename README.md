@@ -1,3 +1,5 @@
+![CI / Create Release](https://github.com/yannickm95/lokalise-to-default-messages/workflows/CI%20/%20Create%20Release/badge.svg)
+
 # Lokalise to defaultMessages
 
 Utility to update defaultMessages in source code with values from translation json file. Can also check for duplicate keys and create a diff of keys from 2 different translations file.
