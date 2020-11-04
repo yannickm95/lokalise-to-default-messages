@@ -23,7 +23,8 @@
   "scripts": {
     "prettier": "prettier --write './**/*.{ts,tsx,js,jsx,json,css,scss}'",
     "lint": "eslint --ext ts,tsx,js,jsx .",
-    "postversion": "git push origin main; git push origin --tags",
+    "version": "npx auto-changelog --commit-limit 'false' --hide-credit; git add CHANGELOG.md ",
+    "postversion": "git push origin --all; git push origin --tags",
     "changelog": "auto-changelog -u --hide-credit --commit-limit false"
   },
   "dependencies": {
