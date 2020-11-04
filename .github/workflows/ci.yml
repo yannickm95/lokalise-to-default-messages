@@ -9,7 +9,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: ["javascript"]
+        language: ['javascript']
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -25,7 +25,7 @@ jobs:
 
   publish-npm:
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
-    name: "Publish to NPM"
+    name: 'Publish to NPM'
     needs: [analyze]
     runs-on: ubuntu-latest
     steps:
@@ -54,14 +54,14 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v2.1.2
         with:
-          node-version: "12.x"
+          node-version: '12.x'
       - name: Generate Changelog
         run: npx auto-changelog --commit-limit 'false' --starting-version $TAG_VERSION -o 'VERSION.md' --hide-credit --template changelog-release.hbs
       - name: Read file
         id: changelog
         uses: juliangruber/read-file-action@v1.0.0
         with:
-          path: "./VERSION.md"
+          path: './VERSION.md'
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -76,4 +76,4 @@ jobs:
       - name: Remove File
         uses: JesseTG/rm@v1.0.2
         with:
-          path: "./VERSION.md"
+          path: './VERSION.md'
