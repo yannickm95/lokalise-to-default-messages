@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [v0.4.5](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.4...v0.4.5)
+
+> 4 November 2020
+
+- Cleanup up changelog creation [`3034197`](https://github.com/yannickm95/lokalise-to-default-messages/commit/30341973e0592921669d61359c0db0a55775297c)
+
 #### [v0.4.4](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.3...v0.4.4)
 
 > 4 November 2020
