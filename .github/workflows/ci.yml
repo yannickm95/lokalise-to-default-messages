@@ -56,7 +56,7 @@ jobs:
         with:
           node-version: "12.x"
       - name: Generate Changelog
-        run: npx auto-changelog --commit-limit 'false' --starting-version $TAG_VERSION -o 'VERSION.md' --hide-credit
+        run: npx auto-changelog --commit-limit 'false' --starting-version $TAG_VERSION -o 'VERSION.md' --hide-credit --template changelog-release.hbs
       - name: Read file
         id: changelog
         uses: juliangruber/read-file-action@v1.0.0
