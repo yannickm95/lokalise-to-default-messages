@@ -111,6 +111,8 @@ From version 0.1.0 onwards, lokalise to default messages requires Node 10 or hig
 
 See the [Changelog](CHANGELOG.md) for more information.
 
+brufdipos
+
 ## Roadmap
 
 - Make code more generic
