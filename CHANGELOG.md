@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [v0.4.10](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.9...v0.4.10)
+
+- Use single quote in yaml [`9b0f9ac`](https://github.com/yannickm95/lokalise-to-default-messages/commit/9b0f9ac127c959a4f308bc7d6f3316759a14578d)
+
 #### [v0.4.9](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.8...v0.4.9)
+
+> 4 November 2020
 
 - Migrate roadmap readme -&gt; project [`167d7bd`](https://github.com/yannickm95/lokalise-to-default-messages/commit/167d7bd9fe7cd4bd3f24f50f4de8d53aae82b9d1)
 
