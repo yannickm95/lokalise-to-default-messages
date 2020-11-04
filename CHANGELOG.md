@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [v0.4.11](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.10...v0.4.11)
+
+- Remove unnecessary workflow step [`4b200f4`](https://github.com/yannickm95/lokalise-to-default-messages/commit/4b200f45c7400ad16064f0aa8ba94fc03ed58f5c)
+
 #### [v0.4.10](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.9...v0.4.10)
+
+> 4 November 2020
 
 - Use single quote in yaml [`9b0f9ac`](https://github.com/yannickm95/lokalise-to-default-messages/commit/9b0f9ac127c959a4f308bc7d6f3316759a14578d)
 
