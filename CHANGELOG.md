@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [v0.4.12](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.11...v0.4.12)
+
+- Also run analyze on release branch [`710a09c`](https://github.com/yannickm95/lokalise-to-default-messages/commit/710a09cf84afe6314065c988ff8acf8579711db1)
+
 #### [v0.4.11](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.10...v0.4.11)
+
+> 4 November 2020
 
 - Remove unnecessary workflow step [`4b200f4`](https://github.com/yannickm95/lokalise-to-default-messages/commit/4b200f45c7400ad16064f0aa8ba94fc03ed58f5c)
 
