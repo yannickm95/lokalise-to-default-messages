@@ -2,7 +2,14 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [v0.4.8](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.7...v0.4.8)
+
+- Update release template [`b89bea1`](https://github.com/yannickm95/lokalise-to-default-messages/commit/b89bea1e39a4a976987179c38972588b2569bb37)
+- test [`4b5be6f`](https://github.com/yannickm95/lokalise-to-default-messages/commit/4b5be6f35cb9ae9114f11d16a62e7fb81c24dbb6)
+
 #### [v0.4.7](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.6...v0.4.7)
+
+> 4 November 2020
 
 - :notebook: Update Changelog [`70be685`](https://github.com/yannickm95/lokalise-to-default-messages/commit/70be6855a7334267fa40c13b8f2db008e3e18d4c)
 - Add changelog script [`efc10f3`](https://github.com/yannickm95/lokalise-to-default-messages/commit/efc10f3dd2581b3eab351a54d424b86310e12add)
