@@ -111,21 +111,6 @@ From version 0.1.0 onwards, lokalise to default messages requires Node 10 or hig
 
 See the [Changelog](CHANGELOG.md) for more information.
 
-brufdipos
-
-## Roadmap
-
-- Make code more generic
-- Implement key diff
-- Support non cli usage
-- Support keys array for replace values
-- Support save path for log
-- Add typescript types
-- Implement `yargs` for cli
-- Improve status bar
-- Support dry run for `defaultToMessages` without changes
-- Create package github action
-
 ## License
 
 (MIT License)
