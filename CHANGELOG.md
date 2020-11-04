@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [v0.4.9](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.8...v0.4.9)
+
+- Migrate roadmap readme -&gt; project [`167d7bd`](https://github.com/yannickm95/lokalise-to-default-messages/commit/167d7bd9fe7cd4bd3f24f50f4de8d53aae82b9d1)
+
 #### [v0.4.8](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.7...v0.4.8)
+
+> 4 November 2020
 
 - Update release template [`b89bea1`](https://github.com/yannickm95/lokalise-to-default-messages/commit/b89bea1e39a4a976987179c38972588b2569bb37)
 - test [`4b5be6f`](https://github.com/yannickm95/lokalise-to-default-messages/commit/4b5be6f35cb9ae9114f11d16a62e7fb81c24dbb6)
