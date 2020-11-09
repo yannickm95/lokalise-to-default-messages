@@ -1,12 +1,10 @@
 on:
-  push:
-    branches:
-      - main
+  release:
+    types: [created]
 
 name: Release
 jobs:
   publish-npm:
-    if: "contains(github.event.head_commit.message, 'chore: release')"
     name: "Publish to NPM"
     runs-on: ubuntu-latest
     steps:
