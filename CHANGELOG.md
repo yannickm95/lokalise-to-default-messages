@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.1](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v0.7.0...v0.7.1) (2020-11-09)
+
+
+### Bug Fixes
+
+* ci some more(test) ([81d083b](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/81d083b7249440bd153dc81d052d4783c0f2310f))
+* workflow ci ([ec747e8](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/ec747e8d14f69a2fcad5466252340fb1549bb703))
+
 ## [0.7.0](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v0.6.0...v0.7.0) (2020-11-09)
 
 
