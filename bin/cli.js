@@ -37,7 +37,7 @@ function main() {
   );
 
   const oldTranslationPath = oldTranslationPathArg
-    ? process.cwd() + `/${translationArg.split("=")[1]}`
+    ? process.cwd() + `/${oldTranslationPathArg.split("=")[1]}`
     : undefined;
 
   //Lokalise
