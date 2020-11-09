@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.7.0](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v0.6.0...v0.7.0) (2020-11-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* add new workflow system
+* overhaul ci wofkflow
+
+### Bug Fixes
+
+* properly setup workflows ([92aa65e](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/92aa65e1420ed36abfaf9dcfd60327a3b36d86fe))
+
+
+### Continuous Integration
+
+* add new workflow system ([430f77d](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/430f77d096dc51d6e4e2982026331871b17c5077))
+* overhaul ci wofkflow ([470ef2c](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/470ef2cd3a5abdf3d7649b0bdc5d63023b630869))
+
 ## [0.6.0](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v0.5.0...v0.6.0) (2020-11-09)
 
 
