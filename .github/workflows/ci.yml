@@ -5,7 +5,7 @@ jobs:
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
-    if: contains(github.event.head_commit.message, 'release') || github.ref == 'refs/heads/main'
+    if: "contains(github.event.head_commit.message, 'chore: release') || github.ref == 'refs/heads/main'"
     strategy:
       fail-fast: false
       matrix:

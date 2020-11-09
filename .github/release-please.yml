@@ -1,0 +1,4 @@
+releaseType: node
+handleGHRelease: true
+primaryBranch: main
+bumpMinorPreMajor: true
