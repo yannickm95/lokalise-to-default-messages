@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.15](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.14...v0.4.15) (2020-11-09)
+
+
+### Bug Fixes
+
+* release output in git is correctly dipslayed ([812b3b0](https://github.com/yannickm95/lokalise-to-default-messages/commit/812b3b008bc2650595f23b30e6daa3e07d7c90a1))
+
 ### [0.4.14](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.13...v0.4.14) (2020-11-09)
 
 ### [0.4.13](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.7...v0.4.13) (2020-11-09)
