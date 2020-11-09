@@ -1,0 +1,25 @@
+name: automerge release
+
+on:
+  pull_request:
+    types:
+      - labeled
+      - opened
+  check_suite:
+    types:
+      - completed
+  status: {}
+
+jobs:
+  automerge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: automerge
+        uses: pascalgn/automerge-action@v0.8.0
+        env:
+          GITHUB_TOKEN: "${{ secrets.PAT }}"
+          MERGE_LABELS: "autorelease: pending"
+          MERGE_REMOVE_LABELS: "automerge"
+          MERGE_METHOD: "rebase"
+          MERGE_FORKS: "false"
+          MERGE_FILTER_AUTHOR: "release-please[bot]"
