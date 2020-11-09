@@ -1,4 +1,4 @@
-name: automerge release
+name: automerge
 
 on:
   check_suite:
@@ -15,7 +15,6 @@ jobs:
         env:
           GITHUB_TOKEN: "${{ secrets.PAT }}"
           MERGE_LABELS: "autorelease: pending"
-          MERGE_REMOVE_LABELS: "automerge"
           MERGE_METHOD: "rebase"
           MERGE_FORKS: "false"
           MERGE_FILTER_AUTHOR: "release-please[bot]"
