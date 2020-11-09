@@ -71,6 +71,7 @@ ltdm.toDefaultMessages({
   saveLog: false,
   filesPath: "/src/**/*.{ts,tsx,js,jsx}",
   translationsPath: "src/translations/en.json",
+  oldTranslationPath: undefined,
 });
 ```
 
@@ -92,6 +93,7 @@ ltdm
   [--save-log] | [-sl]
   [--files-path=src/**/*.{ts,tsx,js,jsx}] | [-fp]
   [--translation-file=src/translations/en.json] | [-tf]
+  [--old-translation-file=src/translations/old-en.json] | [-otf]
 ```
 
 You can pass the argument `--duplicate-keys` or `-dk` if you want to check for duplicate keys.
@@ -106,6 +108,10 @@ the `defaultMessages` in the js/ts files.
 
 You can pass the argument `--save-log` or `-sl`.
 This will save a log file under `lokalise_log.md`
+
+You can pass the argument `--old-translation-file` or `-otf`.
+If this argument is passed only the changed keys or values will be checked.
+This argument has no default value.
 
 ## Version information
 
