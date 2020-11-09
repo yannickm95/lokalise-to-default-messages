@@ -1,6 +1,6 @@
 {
   "name": "lokalise-to-default-messages",
-  "version": "0.4.13",
+  "version": "0.4.14",
   "description": "Utility to update defaultMessages in source code with values from translation json file",
   "homepage": "https://github.com/yannickm95/lokalise-to-default-messages#readme",
   "author": "Yannick Maes <yannick.maes@niprodigital.com>",
@@ -28,7 +28,7 @@
     "lint": "eslint --ext ts,tsx,js,jsx .",
     "release": "standard-version --no-verify",
     "release:tags": "git push --follow-tags origin main",
-    "release:github": "conventional-github-releaser -p angular -r 0",
+    "release:github": "conventional-github-releaser -p angular -r 0 -v",
     "postrelease": "yarn release:tags && yarn release:github"
   },
   "dependencies": {
