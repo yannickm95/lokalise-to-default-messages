@@ -32,12 +32,21 @@ function main() {
     ? process.cwd() + `/${translationArg.split("=")[1]}`
     : process.cwd() + "/src/translations/en.json";
 
+  const oldTranslationPathArg = args.find(
+    (a) => a.includes("--old-translation-file") || a.includes("-otf")
+  );
+
+  const oldTranslationPath = oldTranslationPathArg
+    ? process.cwd() + `/${translationArg.split("=")[1]}`
+    : undefined;
+
   //Lokalise
   lokalise.toDefaultMessages({
     checkDuplicates,
     saveLog,
     filesPath,
     translationPath,
+    oldTranslationPath,
   });
 }
 
