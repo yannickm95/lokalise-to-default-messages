@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.5](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v0.7.4...v0.7.5) (2020-11-09)
+
+
+### Bug Fixes
+
+* fix cli argument path generation ([3c52a4b](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/3c52a4b8cf2606277bc660618b24d425bc38a7a2))
+
 ### [0.7.4](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v0.7.3...v0.7.4) (2020-11-09)
 
 
