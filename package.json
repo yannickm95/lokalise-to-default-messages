@@ -27,9 +27,9 @@
     "prettier": "prettier --write './**/*.{ts,tsx,js,jsx,json,css,scss}'",
     "lint": "eslint --ext ts,tsx,js,jsx .",
     "release": "standard-version --no-verify",
-    "release:tags": "git push --follow-tags origin master",
-    "release:github": "conventional-github-releaser -p angular",
-    "postrelease": "npm run release:tags && npm run release:github"
+    "release:tags": "git push --follow-tags origin main",
+    "release:github": "conventional-github-releaser -p angular -r 0",
+    "postrelease": "yarn release:tags && yarn release:github"
   },
   "dependencies": {
     "cli-progress": "^3.8.2",
