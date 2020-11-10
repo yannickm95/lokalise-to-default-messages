@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.4...v1.0.5) (2020-11-10)
+
+
+### Bug Fixes
+
+* fix release-please ci v10 ([8893246](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/8893246c53cf1d1adc5e02acbcfdef7747dd83be))
+* fix release-please ci v5 ([1dd7e46](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/1dd7e464cc6809302f21e095d36fed45d235f7e4))
+* fix release-please ci v6 ([1a3a8d6](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/1a3a8d62fe0fb21b5602495e4370cdff91b7da99))
+* fix release-please ci v7 ([5d616bd](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/5d616bd092002347c9cd884fe37bf12309c46cfa))
+* fix release-please ci v8 ([ae71ed5](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/ae71ed54e2fdf6aa3cd74d8b23e0f445c901ed10))
+* fix release-please ci v9 ([162deba](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/162debaefc5a3c33a9ae6a9bbd14ca6578f22ae2))
+
 ### [1.0.4](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.3...v1.0.4) (2020-11-10)
 
 
