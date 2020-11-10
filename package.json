@@ -48,7 +48,7 @@
   },
   "lint-staged": {
     "*.{js,json}": [
-      "prettier --write"
+      "npm run prettier"
     ]
   },
   "keywords": [
