@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.0...v1.0.1) (2020-11-10)
+
+
+### Bug Fixes
+
+* add automatic release merge ([26c2ed0](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/26c2ed0b9bd7a5f87d6d0e9895d70c68c3ef06c8))
+
 ## [1.0.0](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v0.7.5...v1.0.0) (2020-11-10)
 
 
