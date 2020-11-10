@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - main
-      - releases-**
+      - releases-v*
 
 name: CI
 jobs:
