@@ -1,0 +1,15 @@
+on:
+  push:
+    branches:
+      - master
+
+name: Release please
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: GoogleCloudPlatform/release-please-action@v1.3.0
+        with:
+          token: ${{ secrets.PAT }}
+          release-type: node
+          package-name: lokalise-to-default-messages
