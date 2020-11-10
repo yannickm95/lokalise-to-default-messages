@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.1...v1.0.2) (2020-11-10)
+
+
+### Bug Fixes
+
+* fix automerge ci workflow ([8d7f33c](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/8d7f33c89ecc04776e0a1a4562cecd79ae7c7404))
+
 ### [1.0.1](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.0...v1.0.1) (2020-11-10)
 
 
