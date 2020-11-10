@@ -1,8 +1,4 @@
-on:
-  pull_request:
-    types: [opened]
-    branches:
-      - "release-**"
+on: pull_request
 
 name: Automerge
 jobs:
