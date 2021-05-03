@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.10](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.9...v1.0.10) (2021-05-03)
+
+
+### Bug Fixes
+
+* defaultMessage format string type according to content ([ceadbc5](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/ceadbc5d92a4d6700e7b8da4017e07c5537cdc97))
+
 ### [1.0.9](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.8...v1.0.9) (2021-01-06)
 
 
