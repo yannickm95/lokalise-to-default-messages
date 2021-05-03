@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.11](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.10...v1.0.11) (2021-05-03)
+
+
+### Bug Fixes
+
+* remove postinstall script ([1e4af7e](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/1e4af7ed53d40c07abce27f562635c0d033b0c4d))
+
 ### [1.0.10](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.9...v1.0.10) (2021-05-03)
 
 
