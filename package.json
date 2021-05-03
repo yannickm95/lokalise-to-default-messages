@@ -24,7 +24,6 @@
     "node": ">=10"
   },
   "scripts": {
-    "postinstall": "husky install",
     "prettier": "prettier --write './**/*.{js,json}'",
     "lint": "eslint --ext js ."
   },
