@@ -2,196 +2,172 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [1.0.12](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.11...v1.0.12) (2021-07-02)
-
+### [1.0.13](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.11...v1.0.13) (2021-07-02)
 
 ### Bug Fixes
 
-* use better variable naming for translation ([17989b1](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/17989b1ad0e96d1672f394db1e129c653ad74213))
+- use better variable naming for translation ([17989b1](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/17989b1ad0e96d1672f394db1e129c653ad74213))
 
 ### [1.0.12](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.10...v1.0.12) (2021-05-03)
 
-* chores(deps): update packages
+- chores(deps): update packages
 
 ### [1.0.11](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.10...v1.0.11) (2021-05-03)
 
-
 ### Bug Fixes
 
-* remove postinstall script ([1e4af7e](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/1e4af7ed53d40c07abce27f562635c0d033b0c4d))
+- remove postinstall script ([1e4af7e](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/1e4af7ed53d40c07abce27f562635c0d033b0c4d))
 
 ### [1.0.10](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.9...v1.0.10) (2021-05-03)
 
-
 ### Bug Fixes
 
-* defaultMessage format string type according to content ([ceadbc5](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/ceadbc5d92a4d6700e7b8da4017e07c5537cdc97))
+- defaultMessage format string type according to content ([ceadbc5](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/ceadbc5d92a4d6700e7b8da4017e07c5537cdc97))
 
 ### [1.0.9](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.8...v1.0.9) (2021-01-06)
 
-
 ### Bug Fixes
 
-* better naming for diff ([c9cdde5](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/c9cdde510e780215f12774c17f4c65e101510aa8))
+- better naming for diff ([c9cdde5](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/c9cdde510e780215f12774c17f4c65e101510aa8))
 
 ### [1.0.8](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.7...v1.0.8) (2020-11-10)
 
-
 ### Bug Fixes
 
-* drop support for github packages in ci ([986dc9f](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/986dc9f2208d1eee47cfa420322dad3d8e5a3364))
+- drop support for github packages in ci ([986dc9f](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/986dc9f2208d1eee47cfa420322dad3d8e5a3364))
 
 ### [1.0.7](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.6...v1.0.7) (2020-11-10)
 
-
 ### Bug Fixes
 
-* update ci release.ymll ([69039fd](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/69039fd371d63257affeba22dffb974b5ca0ee62))
+- update ci release.ymll ([69039fd](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/69039fd371d63257affeba22dffb974b5ca0ee62))
 
 ### [1.0.6](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.5...v1.0.6) (2020-11-10)
 
-
 ### Bug Fixes
 
-* trigger release ([c7bb838](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/c7bb838494f731df215971afb380e18e8c55393b))
+- trigger release ([c7bb838](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/c7bb838494f731df215971afb380e18e8c55393b))
 
 ### [1.0.5](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.4...v1.0.5) (2020-11-10)
 
-
 ### Bug Fixes
 
-* fix release-please ci v5 ([56e6b95](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/56e6b95f6d379b178842013f321115e14d752559))
+- fix release-please ci v5 ([56e6b95](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/56e6b95f6d379b178842013f321115e14d752559))
 
 ### [1.0.4](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.3...v1.0.4) (2020-11-10)
 
-
 ### Bug Fixes
 
-* fix release-please ci v4 ([f7940a2](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/f7940a2a68165fd56cd7be5a184191a0e9ef4631))
+- fix release-please ci v4 ([f7940a2](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/f7940a2a68165fd56cd7be5a184191a0e9ef4631))
 
 ### [1.0.3](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.2...v1.0.3) (2020-11-10)
 
-
 ### Bug Fixes
 
-* fix release-please ci ([9a5310f](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/9a5310f31f28a7e25b54460ba38e85a602c7ea19))
-* fix release-please ci v2 ([c245457](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/c245457542a1a00354345595b050f0e678742ff8))
-* fix release-please ci v3 ([67a275c](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/67a275cadd85d9408644c3c8c992bf306be55d1a))
+- fix release-please ci ([9a5310f](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/9a5310f31f28a7e25b54460ba38e85a602c7ea19))
+- fix release-please ci v2 ([c245457](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/c245457542a1a00354345595b050f0e678742ff8))
+- fix release-please ci v3 ([67a275c](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/67a275cadd85d9408644c3c8c992bf306be55d1a))
 
 ### [1.0.2](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.1...v1.0.2) (2020-11-10)
 
-
 ### Bug Fixes
 
-* fix automerge ci workflow ([8d7f33c](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/8d7f33c89ecc04776e0a1a4562cecd79ae7c7404))
+- fix automerge ci workflow ([8d7f33c](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/8d7f33c89ecc04776e0a1a4562cecd79ae7c7404))
 
 ### [1.0.1](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.0...v1.0.1) (2020-11-10)
 
-
 ### Bug Fixes
 
-* add automatic release merge ([26c2ed0](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/26c2ed0b9bd7a5f87d6d0e9895d70c68c3ef06c8))
+- add automatic release merge ([26c2ed0](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/26c2ed0b9bd7a5f87d6d0e9895d70c68c3ef06c8))
 
 ## [1.0.0](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v0.7.5...v1.0.0) (2020-11-10)
 
-
 ### ⚠ BREAKING CHANGES
 
-* trigger release v1.0.0
+- trigger release v1.0.0
 
 ### Features
 
-* trigger release v1.0.0 ([0833709](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/0833709a639ea74498768bbf99a298c09b87ca1b))
+- trigger release v1.0.0 ([0833709](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/0833709a639ea74498768bbf99a298c09b87ca1b))
 
 ### [0.7.5](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v0.7.4...v0.7.5) (2020-11-09)
 
-
 ### Bug Fixes
 
-* fix cli argument path generation ([3c52a4b](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/3c52a4b8cf2606277bc660618b24d425bc38a7a2))
+- fix cli argument path generation ([3c52a4b](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/3c52a4b8cf2606277bc660618b24d425bc38a7a2))
 
 ### [0.7.4](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v0.7.3...v0.7.4) (2020-11-09)
 
-
 ### Bug Fixes
 
-* only run ci on main and release branches ([726d669](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/726d6698bb4bbcf2c29152986cacb5a0010bc0de))
+- only run ci on main and release branches ([726d669](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/726d6698bb4bbcf2c29152986cacb5a0010bc0de))
 
 ### [0.7.3](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v0.7.2...v0.7.3) (2020-11-09)
 
-
 ### Bug Fixes
 
-* fix final ci problems ([2733654](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/2733654e41476962ac3301205a964d1cd2fc90ac))
+- fix final ci problems ([2733654](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/2733654e41476962ac3301205a964d1cd2fc90ac))
 
 ### [0.7.2](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v0.7.1...v0.7.2) (2020-11-09)
 
-
 ### Bug Fixes
 
-* ci some more(test2) ([81451cc](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/81451cc0943a00d4fd5f5eb50134af0a97a8121a))
+- ci some more(test2) ([81451cc](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/81451cc0943a00d4fd5f5eb50134af0a97a8121a))
 
 ### [0.7.1](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v0.7.0...v0.7.1) (2020-11-09)
 
-
 ### Bug Fixes
 
-* ci some more(test) ([81d083b](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/81d083b7249440bd153dc81d052d4783c0f2310f))
-* workflow ci ([ec747e8](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/ec747e8d14f69a2fcad5466252340fb1549bb703))
+- ci some more(test) ([81d083b](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/81d083b7249440bd153dc81d052d4783c0f2310f))
+- workflow ci ([ec747e8](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/ec747e8d14f69a2fcad5466252340fb1549bb703))
 
 ## [0.7.0](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v0.6.0...v0.7.0) (2020-11-09)
 
-
 ### ⚠ BREAKING CHANGES
 
-* add new workflow system
-* overhaul ci wofkflow
+- add new workflow system
+- overhaul ci wofkflow
 
 ### Bug Fixes
 
-* properly setup workflows ([92aa65e](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/92aa65e1420ed36abfaf9dcfd60327a3b36d86fe))
-
+- properly setup workflows ([92aa65e](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/92aa65e1420ed36abfaf9dcfd60327a3b36d86fe))
 
 ### Continuous Integration
 
-* add new workflow system ([430f77d](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/430f77d096dc51d6e4e2982026331871b17c5077))
-* overhaul ci wofkflow ([470ef2c](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/470ef2cd3a5abdf3d7649b0bdc5d63023b630869))
+- add new workflow system ([430f77d](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/430f77d096dc51d6e4e2982026331871b17c5077))
+- overhaul ci wofkflow ([470ef2c](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/470ef2cd3a5abdf3d7649b0bdc5d63023b630869))
 
 ## [0.6.0](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v0.5.0...v0.6.0) (2020-11-09)
 
-
 ### ⚠ BREAKING CHANGES
 
-* drop standard-version package
+- drop standard-version package
 
 ### Build System
 
-* drop standard-version package ([0978e38](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/0978e38517ccd1d30fdcdc3da03a83e035666626))
+- drop standard-version package ([0978e38](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/0978e38517ccd1d30fdcdc3da03a83e035666626))
 
 ## [0.5.0](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.17...v0.5.0) (2020-11-09)
 
-
 ### ⚠ BREAKING CHANGES
 
-* support --old-translation-file argument
+- support --old-translation-file argument
 
 ### Features
 
-* support --old-translation-file argument ([254ef77](https://github.com/yannickm95/lokalise-to-default-messages/commit/254ef7702f8c3ae278fd5419fb82cbd0b30db772))
+- support --old-translation-file argument ([254ef77](https://github.com/yannickm95/lokalise-to-default-messages/commit/254ef7702f8c3ae278fd5419fb82cbd0b30db772))
 
 ### [0.4.17](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.16...v0.4.17) (2020-11-09)
 
-
 ### Features
 
-* support old translation file diff ([8dd2d2d](https://github.com/yannickm95/lokalise-to-default-messages/commit/8dd2d2d4fdeec5f8ffb7dc6faae7031e40eeeeaa))
+- support old translation file diff ([8dd2d2d](https://github.com/yannickm95/lokalise-to-default-messages/commit/8dd2d2d4fdeec5f8ffb7dc6faae7031e40eeeeaa))
 
 ### [0.4.16](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.15...v0.4.16) (2020-11-09)
 
-
 ### Bug Fixes
 
-* generate release properly ([52e40a3](https://github.com/yannickm95/lokalise-to-default-messages/commit/52e40a35f12eca4977435222da0382347f5d62c1))
+- generate release properly ([52e40a3](https://github.com/yannickm95/lokalise-to-default-messages/commit/52e40a35f12eca4977435222da0382347f5d62c1))
 
 ### [0.4.15](https://github.com/yannickm95/lokalise-to-default-messages/compare/v0.4.14...v0.4.15) (2020-11-09)
 
