@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.15](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.11...v1.0.15) (2021-07-02)
+
+### Bug Fixes
+
+* better error logging
+
 ### [1.0.14](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.11...v1.0.14) (2021-07-02)
 
 ### Bug Fixes
