@@ -3,7 +3,7 @@
   "version": "1.0.16",
   "description": "Utility to update defaultMessages in source code with values from translation json file",
   "homepage": "https://github.com/yannickm95/lokalise-to-default-messages#readme",
-  "author": "Yannick Maes <yannick.maes@niprodigital.com>",
+  "author": "Yannick Maes <yannick.maes@nipro-group.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
