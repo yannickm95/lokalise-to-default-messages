@@ -1,0 +1,4 @@
+{
+  "*.js": ["eslint --fix", "prettier --write"],
+  "!(CHANGELOG).{json,yml,md}": "prettier --write"
+}

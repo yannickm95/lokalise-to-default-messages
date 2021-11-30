@@ -46,10 +46,10 @@ the source code `defaultMessages` should have this structure:
 ```js
 const t = defineMessages({
   exampleTitle: {
-    id: "example_title",
-    defaultMessage: "Example title",
+    id: 'example_title',
+    defaultMessage: 'Example title',
   },
-  exampleTitleTwo: { id: "example_title_two", defaultMessage: "Example 2" },
+  exampleTitleTwo: { id: 'example_title_two', defaultMessage: 'Example 2' },
 });
 ```
 
@@ -57,7 +57,7 @@ const t = defineMessages({
 
 ```js
 //Load the library and specify options
-const ltdm = require("lokalise-to-default-messages");
+const ltdm = require('lokalise-to-default-messages');
 const options = {};
 ```
 
@@ -69,8 +69,8 @@ pass the following options to replace values:
 ltdm.toDefaultMessages({
   checkDuplicates: false,
   saveLog: false,
-  filesPath: "/src/**/*.{ts,tsx,js,jsx}",
-  translationsPath: "src/translations/en.json",
+  filesPath: '/src/**/*.{ts,tsx,js,jsx}',
+  translationsPath: 'src/translations/en.json',
   oldTranslationPath: undefined,
 });
 ```
