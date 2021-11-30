@@ -16,10 +16,6 @@
   "bin": {
     "ltdm": "bin/cli.js"
   },
-  "directories": {
-    "lib": "lib"
-  },
-  "types": "./types/index.d.ts",
   "engines": {
     "node": ">=10"
   },
