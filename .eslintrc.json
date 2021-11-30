@@ -4,5 +4,8 @@
     "es2021": true,
     "node": true
   },
-  "extends": "eslint:recommended"
+  "extends": "eslint:recommended",
+  "rules": {
+    "prefer-const": "error"
+  }
 }
