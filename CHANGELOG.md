@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.17...v2.0.0) (2021-12-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* Package is ESM now
+
+### Code Refactoring
+
+* convert package from CJS to ESM ([51f1522](https://www.github.com/yannickm95/lokalise-to-default-messages/commit/51f152207d9b5380063f5b054905f804ccab804f))
+
 ### [1.0.17](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v1.0.16...v1.0.17) (2021-11-30)
 
 
