@@ -53,12 +53,20 @@ const t = defineMessages({
 });
 ```
 
+IMPORTANT: lokalise-to-default-messages 2 is ESM only.
+
 ## Basic usage
 
 ```js
 //Load the library and specify options
-const ltdm = require('lokalise-to-default-messages');
-const options = {};
+import ltdm from 'lokalise-to-default-messages';
+```
+
+OR
+
+```js
+//Load the library and specify options
+import { toDefaultMessages } from 'lokalise-to-default-messages';
 ```
 
 ### Replace values (Not yet supported)
@@ -76,14 +84,6 @@ ltdm.toDefaultMessages({
 ```
 
 The default options are filled in the example.
-
-### Check duplicates
-
-Not yet supported.
-
-### Key diff
-
-Not yet supported.
 
 ## CLI usage
 
@@ -115,7 +115,7 @@ This argument has no default value.
 
 ## Version information
 
-From version 0.1.0 onwards, lokalise to default messages requires Node 10 or higher.
+From version 2.0.0 onwards, lokalise to default messages requires Node 13 or higher.
 
 See the [Changelog](CHANGELOG.md) for more information.
 
@@ -123,4 +123,4 @@ See the [Changelog](CHANGELOG.md) for more information.
 
 (MIT License)
 
-Copyright 2020-2020, Yannick Maes, [License](LICENSE)
+Copyright 2020-2021, Yannick Maes, [License](LICENSE)

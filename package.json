@@ -12,12 +12,13 @@
   "bugs": {
     "url": "https://github.com/yannickm95/lokalise-to-default-messages/issues"
   },
-  "main": "index.js",
+  "type": "module",
+  "exports": "./lib/index.js",
   "bin": {
-    "ltdm": "bin/cli.js"
+    "ltdm": "./bin/cli.js"
   },
   "engines": {
-    "node": ">=10"
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
   "keywords": [
     "replace",

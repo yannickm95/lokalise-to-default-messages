@@ -1,10 +1,9 @@
 #!/usr/bin/env node
-'use strict';
 
 /**
  * Dependencies
  */
-const lokalise = require('../lib/lokalise-to-default-messages');
+import { toDefaultMessages } from '../lib/index.js';
 
 /**
  * Main routine
@@ -41,7 +40,7 @@ function main() {
     : undefined;
 
   //Lokalise
-  lokalise.toDefaultMessages({
+  toDefaultMessages({
     checkDuplicates,
     saveLog,
     filesPath,
