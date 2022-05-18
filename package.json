@@ -30,7 +30,7 @@
     "lint": "eslint --ext js ."
   },
   "dependencies": {
-    "cli-progress": "^3.11.0",
+    "cli-progress": "^3.11.1",
     "replace-in-file": "^6.3.2"
   },
   "devDependencies": {
