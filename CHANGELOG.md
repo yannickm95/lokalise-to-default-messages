@@ -2,6 +2,91 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.0.2 (2022-05-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* Package is ESM now
+* trigger release v1.0.0
+* add new workflow system
+* overhaul ci wofkflow
+* drop standard-version package
+* support --old-translation-file argument
+
+### Features
+
+* support --old-translation-file argument ([254ef77](https://github.com/yannickm95/lokalise-to-default-messages/commit/254ef7702f8c3ae278fd5419fb82cbd0b30db772))
+* support old translation file diff ([8dd2d2d](https://github.com/yannickm95/lokalise-to-default-messages/commit/8dd2d2d4fdeec5f8ffb7dc6faae7031e40eeeeaa))
+* trigger release v1.0.0 ([0833709](https://github.com/yannickm95/lokalise-to-default-messages/commit/0833709a639ea74498768bbf99a298c09b87ca1b))
+* upgrade internal packages ([7d08cd2](https://github.com/yannickm95/lokalise-to-default-messages/commit/7d08cd2ac2a5784d544c63b615149a80277c6431))
+
+
+### Bug Fixes
+
+* add --no-verify to release script ([8f44514](https://github.com/yannickm95/lokalise-to-default-messages/commit/8f4451418060312f219a54419284185822b0a6da))
+* add automatic release merge ([26c2ed0](https://github.com/yannickm95/lokalise-to-default-messages/commit/26c2ed0b9bd7a5f87d6d0e9895d70c68c3ef06c8))
+* better error logging ([8b05b85](https://github.com/yannickm95/lokalise-to-default-messages/commit/8b05b85029f982a9d48bb50779f4155c40ce41dc))
+* better error logging ([f30ce2f](https://github.com/yannickm95/lokalise-to-default-messages/commit/f30ce2f634ee090c2215891b3b97ed97625cd03b))
+* better error logging ([1639a58](https://github.com/yannickm95/lokalise-to-default-messages/commit/1639a583445a2a9ee3ea47de5376fec1093e6447))
+* better error logging ([7a8cd06](https://github.com/yannickm95/lokalise-to-default-messages/commit/7a8cd06dbcae8cd75eb6a9827591cfa6ac70074f))
+* better error logging ([09f2947](https://github.com/yannickm95/lokalise-to-default-messages/commit/09f29477e3f3e2a16978915a52832fabf53c9401))
+* better naming ([2a311a2](https://github.com/yannickm95/lokalise-to-default-messages/commit/2a311a2acbf33abacc3fef5058b848861e58fc49))
+* better naming for diff ([c9cdde5](https://github.com/yannickm95/lokalise-to-default-messages/commit/c9cdde510e780215f12774c17f4c65e101510aa8))
+* ci some more(test) ([81d083b](https://github.com/yannickm95/lokalise-to-default-messages/commit/81d083b7249440bd153dc81d052d4783c0f2310f))
+* ci some more(test2) ([81451cc](https://github.com/yannickm95/lokalise-to-default-messages/commit/81451cc0943a00d4fd5f5eb50134af0a97a8121a))
+* cleanup changelog ([9056b9f](https://github.com/yannickm95/lokalise-to-default-messages/commit/9056b9f20157390ccb58fdbece6e84e0aae1332e))
+* defaultMessage format string type according to content ([ceadbc5](https://github.com/yannickm95/lokalise-to-default-messages/commit/ceadbc5d92a4d6700e7b8da4017e07c5537cdc97))
+* drop support for github packages in ci ([986dc9f](https://github.com/yannickm95/lokalise-to-default-messages/commit/986dc9f2208d1eee47cfa420322dad3d8e5a3364))
+* export function in index so it's available in bin ([4d95546](https://github.com/yannickm95/lokalise-to-default-messages/commit/4d95546a83268e79e41138613b4c8b2bb51fa5c0))
+* fix automerge ci workflow ([8d7f33c](https://github.com/yannickm95/lokalise-to-default-messages/commit/8d7f33c89ecc04776e0a1a4562cecd79ae7c7404))
+* fix cli argument path generation ([3c52a4b](https://github.com/yannickm95/lokalise-to-default-messages/commit/3c52a4b8cf2606277bc660618b24d425bc38a7a2))
+* fix final ci problems ([2733654](https://github.com/yannickm95/lokalise-to-default-messages/commit/2733654e41476962ac3301205a964d1cd2fc90ac))
+* fix release-please ci ([9a5310f](https://github.com/yannickm95/lokalise-to-default-messages/commit/9a5310f31f28a7e25b54460ba38e85a602c7ea19))
+* fix release-please ci v2 ([c245457](https://github.com/yannickm95/lokalise-to-default-messages/commit/c245457542a1a00354345595b050f0e678742ff8))
+* fix release-please ci v3 ([67a275c](https://github.com/yannickm95/lokalise-to-default-messages/commit/67a275cadd85d9408644c3c8c992bf306be55d1a))
+* fix release-please ci v4 ([f7940a2](https://github.com/yannickm95/lokalise-to-default-messages/commit/f7940a2a68165fd56cd7be5a184191a0e9ef4631))
+* fix release-please ci v5 ([56e6b95](https://github.com/yannickm95/lokalise-to-default-messages/commit/56e6b95f6d379b178842013f321115e14d752559))
+* generate release properly ([52e40a3](https://github.com/yannickm95/lokalise-to-default-messages/commit/52e40a35f12eca4977435222da0382347f5d62c1))
+* only run ci on main and release branches ([726d669](https://github.com/yannickm95/lokalise-to-default-messages/commit/726d6698bb4bbcf2c29152986cacb5a0010bc0de))
+* package.json adjust author ([0d1ebf6](https://github.com/yannickm95/lokalise-to-default-messages/commit/0d1ebf64ae35f663f13a1a4359d57d32b16a794a))
+* properly setup workflows ([92aa65e](https://github.com/yannickm95/lokalise-to-default-messages/commit/92aa65e1420ed36abfaf9dcfd60327a3b36d86fe))
+* release output in git is correctly dipslayed ([812b3b0](https://github.com/yannickm95/lokalise-to-default-messages/commit/812b3b008bc2650595f23b30e6daa3e07d7c90a1))
+* remove postinstall script ([1e4af7e](https://github.com/yannickm95/lokalise-to-default-messages/commit/1e4af7ed53d40c07abce27f562635c0d033b0c4d))
+* trigger release ([c7bb838](https://github.com/yannickm95/lokalise-to-default-messages/commit/c7bb838494f731df215971afb380e18e8c55393b))
+* update ci release.ymll ([69039fd](https://github.com/yannickm95/lokalise-to-default-messages/commit/69039fd371d63257affeba22dffb974b5ca0ee62))
+* update some namings ([#84](https://github.com/yannickm95/lokalise-to-default-messages/issues/84)) ([e8fce16](https://github.com/yannickm95/lokalise-to-default-messages/commit/e8fce16db0df51bb4eb2354746af7c659617fa93))
+* use better variable naming for translation ([6298ace](https://github.com/yannickm95/lokalise-to-default-messages/commit/6298aceab330daf120c5ff1ea4929afbe5db37e7))
+* use better variable naming for translation ([4195f52](https://github.com/yannickm95/lokalise-to-default-messages/commit/4195f5288a1a448496221617beebc2ef47d0c97a))
+* use better variable naming for translation ([17989b1](https://github.com/yannickm95/lokalise-to-default-messages/commit/17989b1ad0e96d1672f394db1e129c653ad74213))
+* workflow ci ([ec747e8](https://github.com/yannickm95/lokalise-to-default-messages/commit/ec747e8d14f69a2fcad5466252340fb1549bb703))
+
+
+### Build System
+
+* drop standard-version package ([0978e38](https://github.com/yannickm95/lokalise-to-default-messages/commit/0978e38517ccd1d30fdcdc3da03a83e035666626))
+
+
+### Continuous Integration
+
+* add new workflow system ([430f77d](https://github.com/yannickm95/lokalise-to-default-messages/commit/430f77d096dc51d6e4e2982026331871b17c5077))
+* overhaul ci wofkflow ([470ef2c](https://github.com/yannickm95/lokalise-to-default-messages/commit/470ef2cd3a5abdf3d7649b0bdc5d63023b630869))
+
+
+### Code Refactoring
+
+* convert package from CJS to ESM ([51f1522](https://github.com/yannickm95/lokalise-to-default-messages/commit/51f152207d9b5380063f5b054905f804ccab804f))
+
+
+### Miscellaneous Chores
+
+* release 1.0.14 ([5558b77](https://github.com/yannickm95/lokalise-to-default-messages/commit/5558b77eaac4276426f5351aae32c40b3db015bd))
+* release 1.0.14 ([63f6b37](https://github.com/yannickm95/lokalise-to-default-messages/commit/63f6b37f53fedc8217e99c6e378423c037407ae3))
+* release 1.0.14 ([f9ecdd1](https://github.com/yannickm95/lokalise-to-default-messages/commit/f9ecdd1b53132a3ef8bef65cbfa8c7f2f616136f))
+* release 2.0.2 ([e17475f](https://github.com/yannickm95/lokalise-to-default-messages/commit/e17475fe65c466a07df78061febf43e0a80f479a))
+* release v1.0.14 ([8f4d077](https://github.com/yannickm95/lokalise-to-default-messages/commit/8f4d0772a2df92ddfbc926f64ca86024b478b7d0))
+* trigger relese v1.0.0 ([b4fcbe7](https://github.com/yannickm95/lokalise-to-default-messages/commit/b4fcbe755e026e40a1d4c41a9d2a1cc171192b17))
+
 ### [2.0.1](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v2.0.0...v2.0.1) (2021-12-03)
 
 
