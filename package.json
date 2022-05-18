@@ -30,12 +30,12 @@
     "lint": "eslint --ext js ."
   },
   "dependencies": {
-    "cli-progress": "^3.11.0",
+    "cli-progress": "^3.11.1",
     "replace-in-file": "^6.3.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.3.0",
-    "@commitlint/config-conventional": "^16.2.4",
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
     "eslint": "^8.15.0",
     "husky": "^8.0.1",
     "lint-staged": "^12.4.1",
