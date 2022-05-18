@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.1.0...v2.1.1) (2022-05-18)
+
+
+### Bug Fixes
+
+* better progressbar naming ([dfb930c](https://github.com/yannickm95/lokalise-to-default-messages/commit/dfb930c859137f9c888245813361f0e2f6327ef7))
+
 ## [2.1.0](https://www.github.com/yannickm95/lokalise-to-default-messages/compare/v2.0.1...v2.1.0) (2022-05-18)
 
 ### Features
