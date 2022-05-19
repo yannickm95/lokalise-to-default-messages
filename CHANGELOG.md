@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.3](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.1.2...v2.1.3) (2022-05-19)
+
+
+### Documentation
+
+* update v2 ESM information ([213fecb](https://github.com/yannickm95/lokalise-to-default-messages/commit/213fecb0fb995dec4ef9f19afa5e7c6343884c57))
+
 ### [2.1.2](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.1.1...v2.1.2) (2022-05-19)
 
 
