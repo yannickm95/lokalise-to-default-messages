@@ -53,7 +53,7 @@ const t = defineMessages({
 });
 ```
 
-**IMPORTANT:** lokalise-to-default-messages 2 is ESM only.
+**IMPORTANT:** lokalise-to-default-messages `v2` is ESM only.
 
 ## Basic usage
 
@@ -115,7 +115,7 @@ This argument has no default value.
 
 ## Version information
 
-From version 2.0.0 onwards, lokalise to default messages requires Node 13 or higher.
+From version `2.0.0` onwards, lokalise to default messages requires Node 13 or higher and is an ESM only package.
 
 See the [Changelog](CHANGELOG.md) for more information.
 
