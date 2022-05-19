@@ -53,7 +53,7 @@ const t = defineMessages({
 });
 ```
 
-IMPORTANT: lokalise-to-default-messages 2 is ESM only.
+**IMPORTANT:** lokalise-to-default-messages 2 is ESM only.
 
 ## Basic usage
 
@@ -123,4 +123,4 @@ See the [Changelog](CHANGELOG.md) for more information.
 
 (MIT License)
 
-Copyright 2020-2021, Yannick Maes, [License](LICENSE)
+Copyright 2020-2022, Yannick Maes, [License](LICENSE)
