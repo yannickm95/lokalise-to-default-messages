@@ -2,7 +2,7 @@ on:
   release:
     types: [created]
 
-name: Release
+name: Publish
 jobs:
   publish-npm:
     name: 'Publish to NPM'
