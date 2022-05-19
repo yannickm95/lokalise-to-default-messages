@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.4](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.1.3...v2.1.4) (2022-05-19)
+
+
+### Documentation
+
+* update copyright and license ([88dd2b8](https://github.com/yannickm95/lokalise-to-default-messages/commit/88dd2b8128874b6b7194867770c2dc60cc2dc8f3))
+
 ### [2.1.3](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.1.2...v2.1.3) (2022-05-19)
 
 
