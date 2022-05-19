@@ -123,4 +123,4 @@ See the [Changelog](CHANGELOG.md) for more information.
 
 (MIT License)
 
-Copyright 2020-2022, Yannick Maes, [License](LICENSE)
+Copyright 2022, Yannick Maes, [License](LICENSE)
