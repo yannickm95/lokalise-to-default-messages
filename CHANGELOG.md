@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.1.4...v2.2.0) (2022-08-02)
+
+
+### Features
+
+* **build:** upgrade yarn to v3 ([af31339](https://github.com/yannickm95/lokalise-to-default-messages/commit/af313398ba7d1651fce9694cf9c88b652b3092e3))
+
 ### [2.1.4](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.1.3...v2.1.4) (2022-05-19)
 
 
