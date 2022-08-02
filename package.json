@@ -29,6 +29,7 @@
     "format": "prettier --write './**/!(CHANGELOG).{js,json,yml,md}'",
     "lint": "eslint --ext js ."
   },
+  "packageManager": "yarn@3.2.2",
   "dependencies": {
     "cli-progress": "^3.11.2",
     "replace-in-file": "^6.3.5"
@@ -36,7 +37,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
-    "eslint": "^8.20.0",
+    "eslint": "^8.21.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
