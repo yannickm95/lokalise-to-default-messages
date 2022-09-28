@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.2.0...v2.3.0) (2022-09-28)
+
+
+### Features
+
+* restructure files and expose main entry in package.json ([80233bf](https://github.com/yannickm95/lokalise-to-default-messages/commit/80233bfb8c9a195791c73b2544489f85a9fc33c1))
+
 ## [2.2.0](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.1.4...v2.2.0) (2022-08-02)
 
 
