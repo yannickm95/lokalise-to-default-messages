@@ -3,7 +3,7 @@
 /**
  * Dependencies
  */
-import { toDefaultMessages } from '../lib/index.js';
+import { toDefaultMessages } from './index.js';
 
 /**
  * Main routine
