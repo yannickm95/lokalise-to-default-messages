@@ -1765,7 +1765,7 @@ __metadata:
     prettier: ^2.7.1
     replace-in-file: ^6.3.5
   bin:
-    ltdm: ./bin/cli.js
+    ltdm: ./src/cli.js
   languageName: unknown
   linkType: soft
 
