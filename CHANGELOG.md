@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.3.0...v2.4.0) (2023-01-05)
+
+
+### Dependencies
+
+* **deps:** bump @commitlint/cli and @commitlint/config-conventional from 17.2.0 to 17.3.0 + update underlying deps ([#238](https://github.com/yannickm95/lokalise-to-default-messages/issues/238)) ([5addee2](https://github.com/yannickm95/lokalise-to-default-messages/commit/5addee2819c0f5e570d83ebb3820c3353ce29b15))
+* **deps:** bump @commitlint/cli from 17.1.2 to 17.2.0 ([#232](https://github.com/yannickm95/lokalise-to-default-messages/issues/232)) ([128bbc5](https://github.com/yannickm95/lokalise-to-default-messages/commit/128bbc5dc959a492c2acc0dd9cd3d031dfac3067))
+* **deps:** bump @commitlint/config-conventional from 17.1.0 to 17.2.0 ([#233](https://github.com/yannickm95/lokalise-to-default-messages/issues/233)) ([76775f8](https://github.com/yannickm95/lokalise-to-default-messages/commit/76775f8f82d210a7028d0c8eec10db8f36b7909c))
+* **deps:** bump eslint from 8.25.0 to 8.26.0 ([#231](https://github.com/yannickm95/lokalise-to-default-messages/issues/231)) ([fb11a0c](https://github.com/yannickm95/lokalise-to-default-messages/commit/fb11a0c79103623ec25384340008a75e22831a3f))
+* **deps:** bump eslint from 8.26.0 to 8.27.0 ([#235](https://github.com/yannickm95/lokalise-to-default-messages/issues/235)) ([b624884](https://github.com/yannickm95/lokalise-to-default-messages/commit/b624884a38e5b09d85ce7c9bcf024511c1d2ea79))
+* **deps:** bump eslint from 8.27.0 to 8.28.0 ([#236](https://github.com/yannickm95/lokalise-to-default-messages/issues/236)) ([30649c2](https://github.com/yannickm95/lokalise-to-default-messages/commit/30649c2ca3040a00d8dcb72d88924cbd97940775))
+* **deps:** bump husky from 8.0.1 to 8.0.2 ([#234](https://github.com/yannickm95/lokalise-to-default-messages/issues/234)) ([b716443](https://github.com/yannickm95/lokalise-to-default-messages/commit/b7164438b107cd3a3d19c3366806d2c9a21127b4))
+* **deps:** bump lint-staged from 13.0.3 to 13.0.4 ([#240](https://github.com/yannickm95/lokalise-to-default-messages/issues/240)) ([7aaa3c3](https://github.com/yannickm95/lokalise-to-default-messages/commit/7aaa3c3cd11154aac2d19e458e8ee4652eb90a00))
+* **deps:** bump prettier from 2.7.1 to 2.8.0 ([#239](https://github.com/yannickm95/lokalise-to-default-messages/issues/239)) ([7d580a6](https://github.com/yannickm95/lokalise-to-default-messages/commit/7d580a6e741101be7721b51aa2fad4f54df2afde))
+* **deps:** bump prettier from 2.8.0 to 2.8.1 ([#243](https://github.com/yannickm95/lokalise-to-default-messages/issues/243)) ([9b7d3da](https://github.com/yannickm95/lokalise-to-default-messages/commit/9b7d3da076bae060602e107b0554c7b8f444cd03))
+
+
+### chore
+
+* release 2.4.0 ([81789d1](https://github.com/yannickm95/lokalise-to-default-messages/commit/81789d181d94c6af23fdcddfcc7e572be0cde5f5))
+
 ## [2.3.0](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.2.0...v2.3.0) (2022-09-28)
 
 
