@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.2](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.1...v2.4.2) (2023-01-05)
+
+
+### Bug Fixes
+
+* properly configure husk with Yarn 2+ ([3473017](https://github.com/yannickm95/lokalise-to-default-messages/commit/347301722030de369fa013f629134385e81315e4))
+
 ## [2.4.1](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.0...v2.4.1) (2023-01-05)
 
 
