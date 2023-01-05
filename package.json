@@ -27,7 +27,7 @@
     "translation-file"
   ],
   "scripts": {
-    "postinstall": "husky install",
+    "prepare": "husky install",
     "format": "prettier --write './**/!(CHANGELOG).{js,json,yml,md}'",
     "lint": "eslint --ext js ."
   },
