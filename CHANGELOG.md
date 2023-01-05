@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.6](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.5...v2.4.6) (2023-01-05)
+
+
+### Bug Fixes
+
+* pass otp properly in publish ([150705d](https://github.com/yannickm95/lokalise-to-default-messages/commit/150705dcd90e34d33b0e9d6afb3a033f35fdd470))
+
 ## [2.4.5](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.4...v2.4.5) (2023-01-05)
 
 
