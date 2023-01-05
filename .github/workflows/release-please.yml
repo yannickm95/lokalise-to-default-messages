@@ -26,14 +26,9 @@ jobs:
         with:
           node-version: lts/*
           registry-url: https://registry.npmjs.org/
-          cache: yarn
-
-      - name: Install dependencies
-        if: ${{ steps.release.outputs.release_created }}
-        run: yarn install --immutable
 
       - name: Publish package
         if: ${{ steps.release.outputs.release_created }}
-        run: yarn npm publish --otp ${{ env.NODE_AUTH_TOKEN }} --access public
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

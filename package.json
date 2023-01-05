@@ -28,10 +28,7 @@
   ],
   "scripts": {
     "format": "prettier --write './**/!(CHANGELOG).{js,json,yml,md}'",
-    "lint": "eslint --ext js .",
-    "postinstall": "husky install",
-    "prepack": "pinst --disable",
-    "postpack": "pinst --enable"
+    "lint": "eslint --ext js ."
   },
   "packageManager": "yarn@3.3.1",
   "dependencies": {
@@ -44,7 +41,6 @@
     "eslint": "^8.31.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
-    "pinst": "^3.0.0",
     "prettier": "^2.8.1"
   }
 }
