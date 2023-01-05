@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.7](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.6...v2.4.7) (2023-01-05)
+
+
+### Bug Fixes
+
+* make husky install optional ([9220bd3](https://github.com/yannickm95/lokalise-to-default-messages/commit/9220bd34f77d4f12e2d1aa531b992243ac6d3aca))
+
 ## [2.4.6](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.5...v2.4.6) (2023-01-05)
 
 
