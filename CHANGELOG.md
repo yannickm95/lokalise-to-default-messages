@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.3](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.2...v2.4.3) (2023-01-05)
+
+
+### Dependencies
+
+* run yarn publish command instead of npm ([b635e96](https://github.com/yannickm95/lokalise-to-default-messages/commit/b635e960c8a399698347e427fd277aff476c3b21))
+
+
+### Miscellaneous
+
+* release 2.4.3 ([436ea82](https://github.com/yannickm95/lokalise-to-default-messages/commit/436ea821e68af0959f45e26b8b239c79b5bdb082))
+
 ## [2.4.2](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.1...v2.4.2) (2023-01-05)
 
 
