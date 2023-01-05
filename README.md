@@ -1,4 +1,4 @@
-![CI / Create Release](https://github.com/yannickm95/lokalise-to-default-messages/workflows/CI%20/%20Create%20Release/badge.svg)
+[![Release](https://github.com/yannickm95/lokalise-to-default-messages/actions/workflows/release-please.yml/badge.svg)](https://github.com/yannickm95/lokalise-to-default-messages/actions/workflows/release-please.yml)
 
 # Lokalise to defaultMessages
 
