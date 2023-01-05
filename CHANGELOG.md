@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.4](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.3...v2.4.4) (2023-01-05)
+
+
+### Dependencies
+
+* cache and install yarn deps when releasing ([565be6c](https://github.com/yannickm95/lokalise-to-default-messages/commit/565be6c49e7ba39c453a2c0c578e94e1132fdd15))
+
+
+### Miscellaneous
+
+* release 2.4.4 ([37b0b75](https://github.com/yannickm95/lokalise-to-default-messages/commit/37b0b754d331f0c3b6641c38dc55726acaa5e3a1))
+
 ## [2.4.3](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.2...v2.4.3) (2023-01-05)
 
 
