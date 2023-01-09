@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.8](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.7...v2.4.8) (2023-01-09)
+
+
+### Dependencies
+
+* **deps:** bump prettier from 2.8.1 to 2.8.2 ([#260](https://github.com/yannickm95/lokalise-to-default-messages/issues/260)) ([e693436](https://github.com/yannickm95/lokalise-to-default-messages/commit/e6934361760f3f3d8047f5d42219c6069ccfa016))
+
 ## [2.4.7](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.6...v2.4.7) (2023-01-05)
 
 
