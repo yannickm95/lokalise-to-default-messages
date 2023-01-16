@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.9](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.8...v2.4.9) (2023-01-16)
+
+
+### Dependencies
+
+* **deps:** bump @commitlint/cli from 17.4.0 to 17.4.1 ([#262](https://github.com/yannickm95/lokalise-to-default-messages/issues/262)) ([c995a92](https://github.com/yannickm95/lokalise-to-default-messages/commit/c995a9216d0b81d2f19be36b4de16c6b7f7c5668))
+* **deps:** bump @commitlint/cli from 17.4.1 to 17.4.2 ([#265](https://github.com/yannickm95/lokalise-to-default-messages/issues/265)) ([9dfb47b](https://github.com/yannickm95/lokalise-to-default-messages/commit/9dfb47b361e2ca2b3622363265596876f03aef6a))
+* **deps:** bump @commitlint/config-conventional from 17.4.0 to 17.4.2 ([#264](https://github.com/yannickm95/lokalise-to-default-messages/issues/264)) ([03edac6](https://github.com/yannickm95/lokalise-to-default-messages/commit/03edac6e2ef4610b2f0998aa2e95a8600adffa57))
+* **deps:** bump eslint and prettier ([6477e4a](https://github.com/yannickm95/lokalise-to-default-messages/commit/6477e4ab97093aec3a28e56fb8aa4ded782752e9))
+
 ## [2.4.8](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.7...v2.4.8) (2023-01-09)
 
 
