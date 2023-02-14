@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.9](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.8...v2.4.9) (2023-02-14)
+
+
+### Dependencies
+
+* **chore:** update yarn version ([b9cc09a](https://github.com/yannickm95/lokalise-to-default-messages/commit/b9cc09a832536477cb86912c462fb70e97f7fdfa))
+* **deps:** bump @commitlint/cli from 17.4.0 to 17.4.1 ([#262](https://github.com/yannickm95/lokalise-to-default-messages/issues/262)) ([c995a92](https://github.com/yannickm95/lokalise-to-default-messages/commit/c995a9216d0b81d2f19be36b4de16c6b7f7c5668))
+* **deps:** bump @commitlint/cli from 17.4.1 to 17.4.2 ([#265](https://github.com/yannickm95/lokalise-to-default-messages/issues/265)) ([9dfb47b](https://github.com/yannickm95/lokalise-to-default-messages/commit/9dfb47b361e2ca2b3622363265596876f03aef6a))
+* **deps:** bump @commitlint/config-conventional from 17.4.0 to 17.4.2 ([#264](https://github.com/yannickm95/lokalise-to-default-messages/issues/264)) ([03edac6](https://github.com/yannickm95/lokalise-to-default-messages/commit/03edac6e2ef4610b2f0998aa2e95a8600adffa57))
+* **deps:** bump eslint and prettier ([6477e4a](https://github.com/yannickm95/lokalise-to-default-messages/commit/6477e4ab97093aec3a28e56fb8aa4ded782752e9))
+* **deps:** bump eslint from 8.33.0 to 8.34.0 ([#277](https://github.com/yannickm95/lokalise-to-default-messages/issues/277)) ([75b68e0](https://github.com/yannickm95/lokalise-to-default-messages/commit/75b68e037d30c07463840c616b5edfb94722809a))
+* **deps:** bump lint-staged from 13.1.0 to 13.1.1 ([#273](https://github.com/yannickm95/lokalise-to-default-messages/issues/273)) ([6f8913e](https://github.com/yannickm95/lokalise-to-default-messages/commit/6f8913ed6f84100da538cf2f95a6acb83c4d81af))
+* **deps:** bump prettier from 2.8.3 to 2.8.4 ([#274](https://github.com/yannickm95/lokalise-to-default-messages/issues/274)) ([4ff41d7](https://github.com/yannickm95/lokalise-to-default-messages/commit/4ff41d703af6408ce55eecc39110c0b63f57aceb))
+* **deps:** update deps ([9b61979](https://github.com/yannickm95/lokalise-to-default-messages/commit/9b619793720d1d18eb6a8951fc7fff1f7c7230b2))
+* **deps:** update deps ([9c0239f](https://github.com/yannickm95/lokalise-to-default-messages/commit/9c0239ff56a7f40cc8ceb7e459e611b39c939e16))
+
 ## [2.4.8](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.7...v2.4.8) (2023-01-09)
 
 
