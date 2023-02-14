@@ -30,7 +30,7 @@
     "format": "prettier --write './**/!(CHANGELOG).{js,json,md}'",
     "lint": "eslint --ext js ."
   },
-  "packageManager": "yarn@3.3.1",
+  "packageManager": "yarn@3.4.1",
   "dependencies": {
     "cli-progress": "^3.11.2",
     "replace-in-file": "^6.3.5"
