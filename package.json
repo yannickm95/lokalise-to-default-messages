@@ -32,7 +32,7 @@
   },
   "packageManager": "yarn@3.4.1",
   "dependencies": {
-    "cli-progress": "^3.11.2",
+    "cli-progress": "^3.12.0",
     "replace-in-file": "^6.3.5"
   },
   "devDependencies": {
