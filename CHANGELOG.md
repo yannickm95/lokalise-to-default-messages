@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.10](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.9...v2.4.10) (2023-03-21)
+
+
+### Dependencies
+
+* **deps:** update depdendencies ([5b3965e](https://github.com/yannickm95/lokalise-to-default-messages/commit/5b3965ee52f69f36c7fb95807617442965d08d06))
+* **deps:** update deps ([dcf62e8](https://github.com/yannickm95/lokalise-to-default-messages/commit/dcf62e81ed93c223edeb4e555022f537a1e2edda))
+* **deps:** update deps ([4c70327](https://github.com/yannickm95/lokalise-to-default-messages/commit/4c70327a953f14baad17ce703125f2f4072d528f))
+* **deps:** update deps and underlying deps ([b179034](https://github.com/yannickm95/lokalise-to-default-messages/commit/b1790345018ddcfce4464b19b451f8a1eeb6ea22))
+
 ## [2.4.9](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.8...v2.4.9) (2023-02-14)
 
 
