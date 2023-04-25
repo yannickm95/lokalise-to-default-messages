@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.12](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.11...v2.4.12) (2023-04-25)
+
+
+### Dependencies
+
+* **deps:** bump yaml from 2.2.1 to 2.2.2 ([#312](https://github.com/yannickm95/lokalise-to-default-messages/issues/312)) ([081fd9f](https://github.com/yannickm95/lokalise-to-default-messages/commit/081fd9fbd8915229268a25db9f6cbfbd22ae1d5a))
+
 ## [2.4.11](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.10...v2.4.11) (2023-04-24)
 
 
