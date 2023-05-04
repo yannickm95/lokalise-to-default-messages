@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.15](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.14...v2.4.15) (2023-05-04)
+
+
+### Bug Fixes
+
+* ci disable prepare script ([0845f1d](https://github.com/yannickm95/lokalise-to-default-messages/commit/0845f1d8f64f85a89459cb1ff46f137575aa2d36))
+
 ## [2.4.14](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.13...v2.4.14) (2023-05-04)
 
 
