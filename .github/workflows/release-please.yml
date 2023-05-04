@@ -29,6 +29,6 @@ jobs:
 
       - name: Publish package
         if: ${{ steps.release.outputs.release_created }}
-        run: npm publish --ignore-scripts --production
+        run: npm pkg delete scripts.prepare && npm publish --omit=dev
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
