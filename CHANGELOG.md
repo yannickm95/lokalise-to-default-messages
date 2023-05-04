@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.13](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.12...v2.4.13) (2023-05-04)
+
+
+### Dependencies
+
+* **deps:** bump lint-staged from 13.2.1 to 13.2.2 ([#314](https://github.com/yannickm95/lokalise-to-default-messages/issues/314)) ([0519d86](https://github.com/yannickm95/lokalise-to-default-messages/commit/0519d8689d7aafb316121be4db1f02d6cf4815ff))
+
+
+### Miscellaneous
+
+* switch from yarn to pnpm as package manager ([791023b](https://github.com/yannickm95/lokalise-to-default-messages/commit/791023b80cf458f5df243f6ddfbab02639395fb4))
+
 ## [2.4.12](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.11...v2.4.12) (2023-04-25)
 
 
