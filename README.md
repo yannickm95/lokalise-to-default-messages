@@ -28,6 +28,9 @@ npm i -g lokalise-to-default-messages
 
 # Using yarn
 yarn add lokalise-to-default-messages
+
+# Using pnpm
+pnpm install lokalise-to-default-messages
 ```
 
 ## Prerequisites
