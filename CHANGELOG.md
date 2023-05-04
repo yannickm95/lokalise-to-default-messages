@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.14](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.13...v2.4.14) (2023-05-04)
+
+
+### Bug Fixes
+
+* npm publish ci ([060be04](https://github.com/yannickm95/lokalise-to-default-messages/commit/060be0430abeabe72318ba6fb5e42fdbb28e155a))
+
 ## [2.4.13](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.12...v2.4.13) (2023-05-04)
 
 
