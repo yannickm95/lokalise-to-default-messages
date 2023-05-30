@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.17](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.16...v2.4.17) (2023-05-30)
+
+
+### Dependencies
+
+* **deps:** bump replace-in-file, remove @types/node, bump pnpm package manager ([8bd0e69](https://github.com/yannickm95/lokalise-to-default-messages/commit/8bd0e6929169e6142fed5c0d0619ba569bc7fb76))
+* **deps:** update @types/node and underlying deps ([0953048](https://github.com/yannickm95/lokalise-to-default-messages/commit/0953048c7ce6eb44bb288df159cca3fbdbd6ec06))
+
 ## [2.4.16](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.15...v2.4.16) (2023-05-22)
 
 
