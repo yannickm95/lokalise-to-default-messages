@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.18](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.17...v2.4.18) (2023-05-31)
+
+
+### Dependencies
+
+* **deps:** update [@commitlint](https://github.com/commitlint) deps ([f5f85cd](https://github.com/yannickm95/lokalise-to-default-messages/commit/f5f85cd597bd6c0e04a6c6417d42550b38e1fd61))
+
 ## [2.4.17](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.16...v2.4.17) (2023-05-30)
 
 
