@@ -37,7 +37,7 @@
     "replace-in-file": "^7.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.3",
+    "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.3",
     "eslint": "^8.41.0",
     "husky": "^8.0.3",
