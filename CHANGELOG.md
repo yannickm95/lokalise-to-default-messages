@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.18](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.17...v2.4.18) (2023-06-07)
+
+
+### Dependencies
+
+* **deps:** update [@commitlint](https://github.com/commitlint) deps ([f5f85cd](https://github.com/yannickm95/lokalise-to-default-messages/commit/f5f85cd597bd6c0e04a6c6417d42550b38e1fd61))
+* **deps:** update eslint 8.41.0 -&gt; 8.42.0 ([1ff38e4](https://github.com/yannickm95/lokalise-to-default-messages/commit/1ff38e42bf29f79c38d3d8a4749a766948944540))
+* **deps:** update underlying deps ([dfecfcb](https://github.com/yannickm95/lokalise-to-default-messages/commit/dfecfcb43cd4cf1e5594b58ad52fbbf07515deed))
+
 ## [2.4.17](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.16...v2.4.17) (2023-05-30)
 
 
