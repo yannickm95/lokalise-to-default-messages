@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.19](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.18...v2.4.19) (2023-06-15)
+
+
+### Dependencies
+
+* **deps:** update packageManager and dependencies ([07fa219](https://github.com/yannickm95/lokalise-to-default-messages/commit/07fa2195b16f28688ec238dfb13eb4f2216ec044))
+
 ## [2.4.18](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.17...v2.4.18) (2023-06-07)
 
 
