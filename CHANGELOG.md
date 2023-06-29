@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.19](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.18...v2.4.19) (2023-06-29)
+
+
+### Dependencies
+
+* **deps:** bump @commitlint/cli from 17.6.5 to 17.6.6 ([#341](https://github.com/yannickm95/lokalise-to-default-messages/issues/341)) ([0a96342](https://github.com/yannickm95/lokalise-to-default-messages/commit/0a963424374db0c8f26df83e4248d35652c84b10))
+* **deps:** bump @commitlint/config-conventional from 17.6.5 to 17.6.6 ([#340](https://github.com/yannickm95/lokalise-to-default-messages/issues/340)) ([9851156](https://github.com/yannickm95/lokalise-to-default-messages/commit/98511561dd97e55c2fd0a9c84d3b57a5cd56dfe8))
+* **deps:** bump lint-staged + update underling deps ([9e803dc](https://github.com/yannickm95/lokalise-to-default-messages/commit/9e803dccd414c7aa5f4afefdd49bbbcae64396a3))
+* **deps:** update deps ([95efd66](https://github.com/yannickm95/lokalise-to-default-messages/commit/95efd66fc2a3c801a62f727baed16e2053bc9213))
+* **deps:** update package manager and dependencies ([ce2d66d](https://github.com/yannickm95/lokalise-to-default-messages/commit/ce2d66d0f5ae55016b11f79a003bbe8655c6f8db))
+* **deps:** update package manager and update underlying deps ([bf959d2](https://github.com/yannickm95/lokalise-to-default-messages/commit/bf959d2993ec7692bad89192704c4661d35cfc89))
+* **deps:** update packageManager and dependencies ([07fa219](https://github.com/yannickm95/lokalise-to-default-messages/commit/07fa2195b16f28688ec238dfb13eb4f2216ec044))
+
 ## [2.4.18](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.17...v2.4.18) (2023-06-07)
 
 
