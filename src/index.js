@@ -76,7 +76,7 @@ function filesForKey(config) {
         },
         ...filesForKey.map(({ file }, index) => `${index + 1}. : ${path.relative(process.cwd(), file)}`),
         { message: '', type: 'groupEnd' },
-        { message: '', type: 'groupEnd' }
+        { message: '', type: 'groupEnd' },
       );
       errorCount += 1;
     }
@@ -115,7 +115,7 @@ function replaceContent(key, value) {
 
     const regex = new RegExp(
       `defaultMessage:((\n|\r|\r\n)? {1,10}('|"))` + oldValue.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + `('|")`,
-      'gm'
+      'gm',
     );
 
     try {
@@ -158,7 +158,7 @@ function logger(errorLog, successLog, config) {
 
   if (errorCount) {
     [`\n${errorCount} errors occured:`, '-------------------------------------------\n', ...errorLog].forEach(
-      consoleMapper
+      consoleMapper,
     );
   }
 
