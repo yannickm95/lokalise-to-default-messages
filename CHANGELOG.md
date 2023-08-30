@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.20](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.19...v2.4.20) (2023-08-30)
+
+
+### Dependencies
+
+* **deps:** bump `@commitlint/packages` from 17.6.6 to 17.6.7 ([71b4cbe](https://github.com/yannickm95/lokalise-to-default-messages/commit/71b4cbeeb7602a7414731f32c3c0e65b15f33c69))
+* **deps:** bump eslint from 8.43.0 to 8.44.0 ([#347](https://github.com/yannickm95/lokalise-to-default-messages/issues/347)) ([24c7167](https://github.com/yannickm95/lokalise-to-default-messages/commit/24c71678c7817b8b83b10f0bc120a6676f108b3d))
+* **deps:** bump eslint from 8.44.0 to 8.45.0 ([#351](https://github.com/yannickm95/lokalise-to-default-messages/issues/351)) ([76f3b45](https://github.com/yannickm95/lokalise-to-default-messages/commit/76f3b4543df439b2865e074ff7d89c26664eb643))
+* **deps:** bump eslint from 8.45.0 to 8.46.0 ([#356](https://github.com/yannickm95/lokalise-to-default-messages/issues/356)) ([d9cfeeb](https://github.com/yannickm95/lokalise-to-default-messages/commit/d9cfeebe4e3013777873a4f1dd23fda0457cbc0e))
+* **deps:** bump eslint from 8.47.0 to 8.48.0 ([#368](https://github.com/yannickm95/lokalise-to-default-messages/issues/368)) ([61e8edc](https://github.com/yannickm95/lokalise-to-default-messages/commit/61e8edc71284dccd181843ca670578138ca661da))
+* **deps:** bump prettier from 3.0.0 to 3.0.1 ([#358](https://github.com/yannickm95/lokalise-to-default-messages/issues/358)) ([25a9437](https://github.com/yannickm95/lokalise-to-default-messages/commit/25a943783e384fab52b72d966ceb1b184d3ad60f))
+* **deps:** bump prettier from 3.0.2 to 3.0.3 ([#370](https://github.com/yannickm95/lokalise-to-default-messages/issues/370)) ([cfb8130](https://github.com/yannickm95/lokalise-to-default-messages/commit/cfb8130eb1c7685341609b1e12ac7cde533a2abd))
+* **deps:** update package manager ([cf3c213](https://github.com/yannickm95/lokalise-to-default-messages/commit/cf3c2134e5d66ad4ede9bb8db47183385d2385dc))
+* **deps:** update package manager and deps ([e95dfee](https://github.com/yannickm95/lokalise-to-default-messages/commit/e95dfee97be50ffc4ba382c6294c7f96fe6ad5d6))
+* **deps:** update package manager and prettier to v3.0.0 ([eaeb7a4](https://github.com/yannickm95/lokalise-to-default-messages/commit/eaeb7a4f8390b8ac4d0cb7891087f43fcdebfb94))
+* **deps:** update package manager and update underlying deps ([315cdda](https://github.com/yannickm95/lokalise-to-default-messages/commit/315cddac80deb6080e7c2f318081ed7c8135e505))
+* **deps:** update underlying depos ([e37c989](https://github.com/yannickm95/lokalise-to-default-messages/commit/e37c989df6994b8c61a6c5112ff87c42ee01db82))
+
 ## [2.4.19](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.18...v2.4.19) (2023-06-29)
 
 
