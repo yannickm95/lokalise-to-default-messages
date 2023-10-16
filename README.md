@@ -9,12 +9,9 @@ Utility to update defaultMessages in source code with values from translation js
 - [Installation](#installation)
 - [Prerequisites](#prerequisites)
 - [Basic usage](#basic-usage)
-  - [Replace values](#replace-values)
-  - [Check duplicates](#check-duplicates)
-  - [Key diff](#key-diff)
+  - [Replace values](#replace-values-not-yet-supported)
 - [CLI usage](#cli-usage)
 - [Version information](#version-information)
-- [Roadmap](#roadmap)
 - [License](#license)
 
 ## Installation
@@ -117,6 +114,8 @@ If this argument is passed only the changed keys or values will be checked.
 This argument has no default value.
 
 ## Version information
+
+From version `3.0.0` onwards, lokalise to default messages requires Node 18 or higher.
 
 From version `2.0.0` onwards, lokalise to default messages requires Node 13 or higher and is an ESM only package.
 
