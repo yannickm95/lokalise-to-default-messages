@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.1](https://github.com/yannickm95/lokalise-to-default-messages/compare/v3.0.0...v3.0.1) (2023-10-20)
+
+
+### Dependencies
+
+* **deps:** bump lint-staged from 15.0.1 to 15.0.2 ([#387](https://github.com/yannickm95/lokalise-to-default-messages/issues/387)) ([a3b08d9](https://github.com/yannickm95/lokalise-to-default-messages/commit/a3b08d92929dea14b2f3a74c9164f872a4a4776f))
+
 ## [3.0.0](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.19...v3.0.0) (2023-10-16)
 
 
