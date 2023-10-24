@@ -21,7 +21,7 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
 
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         if: ${{ steps.release.outputs.release_created }}
         with:
           node-version: lts/*
