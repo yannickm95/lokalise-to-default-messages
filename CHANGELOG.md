@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.1](https://github.com/yannickm95/lokalise-to-default-messages/compare/v3.0.0...v3.0.1) (2023-10-26)
+
+
+### Dependencies
+
+* **ci-deps:** bump actions/setup-node from 3 to 4 ([#394](https://github.com/yannickm95/lokalise-to-default-messages/issues/394)) ([854e7cd](https://github.com/yannickm95/lokalise-to-default-messages/commit/854e7cdb82b79ba00e187f30b9500bc2ff0f7437))
+* **deps:** bump @commitlint/cli from 17.8.0 to 18.0.0 ([#390](https://github.com/yannickm95/lokalise-to-default-messages/issues/390)) ([5492a48](https://github.com/yannickm95/lokalise-to-default-messages/commit/5492a48028a718dcbf7750069258e5d0ff438baf))
+* **deps:** bump @commitlint/cli from 18.0.0 to 18.1.0 ([#396](https://github.com/yannickm95/lokalise-to-default-messages/issues/396)) ([c580a5c](https://github.com/yannickm95/lokalise-to-default-messages/commit/c580a5cc722d03b54009a458706392a8ba417c55))
+* **deps:** bump @commitlint/config-conventional from 17.8.0 to 18.0.0 ([#389](https://github.com/yannickm95/lokalise-to-default-messages/issues/389)) ([d61f093](https://github.com/yannickm95/lokalise-to-default-messages/commit/d61f093802f7f1774149e96ea47ce2b28fa361bc))
+* **deps:** bump eslint from 8.51.0 to 8.52.0 ([#391](https://github.com/yannickm95/lokalise-to-default-messages/issues/391)) ([db71fcf](https://github.com/yannickm95/lokalise-to-default-messages/commit/db71fcff8933b38b3f808bb6c3693b421f1243e6))
+* **deps:** bump lint-staged from 15.0.1 to 15.0.2 ([#387](https://github.com/yannickm95/lokalise-to-default-messages/issues/387)) ([a3b08d9](https://github.com/yannickm95/lokalise-to-default-messages/commit/a3b08d92929dea14b2f3a74c9164f872a4a4776f))
+* **deps:** update underlying deps ([cd72b6e](https://github.com/yannickm95/lokalise-to-default-messages/commit/cd72b6e54c3cf2f36619be179a61c435ea437cba))
+
 ## [3.0.0](https://github.com/yannickm95/lokalise-to-default-messages/compare/v2.4.19...v3.0.0) (2023-10-16)
 
 
