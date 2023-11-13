@@ -31,17 +31,17 @@
     "lint": "eslint --ext js .",
     "prepare": "husky install"
   },
-  "packageManager": "pnpm@8.10.2",
+  "packageManager": "pnpm@8.10.3",
   "dependencies": {
     "cli-progress": "^3.12.0",
     "replace-in-file": "^7.0.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.2.0",
-    "@commitlint/config-conventional": "^18.1.0",
+    "@commitlint/cli": "^18.4.1",
+    "@commitlint/config-conventional": "^18.4.0",
     "eslint": "^8.53.0",
     "husky": "^8.0.3",
-    "lint-staged": "^15.0.2",
-    "prettier": "^3.0.3"
+    "lint-staged": "^15.1.0",
+    "prettier": "^3.1.0"
   }
 }
