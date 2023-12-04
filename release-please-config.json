@@ -1,5 +1,5 @@
 {
-  "release-type": "node",
+  "package-name": "lokalise-to-default-messages",
   "changelog-sections": [
     { "type": "feat", "section": "Features", "hidden": false },
     { "type": "fix", "section": "Bug Fixes", "hidden": false },
