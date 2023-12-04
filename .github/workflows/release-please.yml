@@ -10,11 +10,7 @@ jobs:
     steps:
       - name: Release please
         id: release
-        uses: google-github-actions/release-please-action@v3
-        with:
-          release-type: node
-          package-name: lokalise-to-default-messages
-          changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"build","section":"Dependencies","hidden":false},{"type":"docs","section":"Documentation","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
+        uses: google-github-actions/release-please-action@v4
 
       - name: Checkout
         uses: actions/checkout@v4
