@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.2](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.1...lokalise-to-default-messages-v3.0.2) (2023-12-04)
+
+
+### Dependencies
+
+* **deps:** update package manager and underlying deps ([25f90da](https://github.com/yannickm95/lokalise-to-default-messages/commit/25f90daaa6a869d863376d491994c7d3681e0ff0))
+
 ## [3.0.1](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.0...lokalise-to-default-messages-v3.0.1) (2023-12-04)
 
 
