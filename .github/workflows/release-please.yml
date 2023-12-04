@@ -11,9 +11,6 @@ jobs:
       - name: Release please
         id: release
         uses: google-github-actions/release-please-action@v4
-        with:
-          release-type: node
-          config-file: release-please-config.json
 
       - name: Checkout
         uses: actions/checkout@v4
