@@ -9,8 +9,8 @@ dependencies:
     specifier: ^3.12.0
     version: 3.12.0
   replace-in-file:
-    specifier: ^7.0.2
-    version: 7.0.2
+    specifier: ^7.1.0
+    version: 7.1.0
 
 devDependencies:
   '@commitlint/cli':
@@ -1620,8 +1620,8 @@ packages:
       strip-indent: 3.0.0
     dev: true
 
-  /replace-in-file@7.0.2:
-    resolution: {integrity: sha512-tPG+Qmqf+x2Rf1WVdb/9B5tFIf6KJ5hs3fgxh1OTzPRUugPPvyAva7NvCJtnSpmyq6r+ABYcuUOqZkm6yzGSUw==}
+  /replace-in-file@7.1.0:
+    resolution: {integrity: sha512-1uZmJ78WtqNYCSuPC9IWbweXkGxPOtk2rKuar8diTw7naVIQZiE3Tm8ACx2PCMXDtVH6N+XxwaRY2qZ2xHPqXw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
