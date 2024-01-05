@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.3](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.2...lokalise-to-default-messages-v3.0.3) (2024-01-05)
+
+
+### Dependencies
+
+* **deps:** bump @commitlint/cli from 18.4.3 to 18.4.4 ([#436](https://github.com/yannickm95/lokalise-to-default-messages/issues/436)) ([85f9294](https://github.com/yannickm95/lokalise-to-default-messages/commit/85f929492c396599b3c7d848c47bb6d40cfde64c))
+* **deps:** bump @commitlint/config-conventional from 18.4.3 to 18.4.4 ([#437](https://github.com/yannickm95/lokalise-to-default-messages/issues/437)) ([b881eb7](https://github.com/yannickm95/lokalise-to-default-messages/commit/b881eb7bcb12d3dcbd116bfc6fef256992b58d29))
+
 ## [3.0.2](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.1...lokalise-to-default-messages-v3.0.2) (2024-01-03)
 
 
