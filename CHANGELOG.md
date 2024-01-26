@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.4](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.3...lokalise-to-default-messages-v3.0.4) (2024-01-26)
+
+
+### Dependencies
+
+* **deps:** bump husky from 9.0.2 to 9.0.6 ([#450](https://github.com/yannickm95/lokalise-to-default-messages/issues/450)) ([4b586c0](https://github.com/yannickm95/lokalise-to-default-messages/commit/4b586c0ce46ef86a125cf344804f252cbbe8455e))
+
 ## [3.0.3](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.2...lokalise-to-default-messages-v3.0.3) (2024-01-25)
 
 
