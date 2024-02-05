@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.4](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.3...lokalise-to-default-messages-v3.0.4) (2024-02-05)
+
+
+### Dependencies
+
+* **deps:** bump @commitlint/cli from 18.5.0 to 18.6.0 ([#452](https://github.com/yannickm95/lokalise-to-default-messages/issues/452)) ([c34a496](https://github.com/yannickm95/lokalise-to-default-messages/commit/c34a496abdcea8cb1482306f86dbf595ccb86e78))
+* **deps:** bump husky from 9.0.2 to 9.0.6 ([#450](https://github.com/yannickm95/lokalise-to-default-messages/issues/450)) ([4b586c0](https://github.com/yannickm95/lokalise-to-default-messages/commit/4b586c0ce46ef86a125cf344804f252cbbe8455e))
+* **deps:** bump husky from 9.0.6 to 9.0.7 ([#455](https://github.com/yannickm95/lokalise-to-default-messages/issues/455)) ([927814d](https://github.com/yannickm95/lokalise-to-default-messages/commit/927814d4d72e706794a9ccf3bb44fc15953aa723))
+* **deps:** bump husky from 9.0.7 to 9.0.10 ([#459](https://github.com/yannickm95/lokalise-to-default-messages/issues/459)) ([53bf9ba](https://github.com/yannickm95/lokalise-to-default-messages/commit/53bf9ba56079b4211c17cefa7dd2e95d819f3df4))
+* **deps:** bump lint-staged from 15.2.0 to 15.2.1 ([#457](https://github.com/yannickm95/lokalise-to-default-messages/issues/457)) ([8d8ed11](https://github.com/yannickm95/lokalise-to-default-messages/commit/8d8ed11c7fed30c98a2bd5a1e26ed7de779c6610))
+* **deps:** bump prettier from 3.2.4 to 3.2.5 ([#461](https://github.com/yannickm95/lokalise-to-default-messages/issues/461)) ([0777414](https://github.com/yannickm95/lokalise-to-default-messages/commit/07774143cf759ebdce3bd02ffe85e59c2a6d89ce))
+
 ## [3.0.3](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.2...lokalise-to-default-messages-v3.0.3) (2024-01-25)
 
 
