@@ -12,6 +12,11 @@
   "bugs": {
     "url": "https://github.com/yannickm95/lokalise-to-default-messages/issues"
   },
+  "keywords": [
+    "replace",
+    "defaultMessages",
+    "translation-file"
+  ],
   "type": "module",
   "main": "./src/index.js",
   "exports": "./src/index.js",
@@ -21,17 +26,12 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "keywords": [
-    "replace",
-    "defaultMessages",
-    "translation-file"
-  ],
+  "packageManager": "pnpm@8.15.2",
   "scripts": {
     "format": "prettier --write './**/!(CHANGELOG).{js,json,md}'",
     "lint": "eslint --ext js .",
     "prepare": "husky"
   },
-  "packageManager": "pnpm@8.14.2",
   "dependencies": {
     "cli-progress": "^3.12.0",
     "replace-in-file": "^7.1.0"
