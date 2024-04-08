@@ -105,7 +105,7 @@ function replaceContent(key, value) {
       oldValue = content
         .split(hasDoubleQuotes ? doubleQuote : singleQuote)[1]
         .split(hasDoubleQuotes ? `" }` : `' }`)[0];
-    } catch (e) {
+    } catch (_e) {
       errorLog.push('* Value for id was not found in file.');
       errorCount += 1;
       return;
