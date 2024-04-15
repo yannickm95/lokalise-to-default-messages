@@ -37,7 +37,7 @@
     "replace-in-file": "^7.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.2.1",
+    "@commitlint/cli": "^19.2.2",
     "@commitlint/config-conventional": "^19.1.0",
     "@eslint/js": "^9.0.0",
     "eslint": "^9.0.0",
