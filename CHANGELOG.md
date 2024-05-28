@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.5](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.4...lokalise-to-default-messages-v3.0.5) (2024-05-28)
+
+
+### Dependencies
+
+* **deps:** bump @eslint/js from 9.1.1 to 9.3.0 ([#499](https://github.com/yannickm95/lokalise-to-default-messages/issues/499)) ([216f954](https://github.com/yannickm95/lokalise-to-default-messages/commit/216f954d3140b6d58eef652b2e858e7cd0fda101))
+* **deps:** bump eslint from 9.1.1 to 9.3.0 ([#500](https://github.com/yannickm95/lokalise-to-default-messages/issues/500)) ([dab6a67](https://github.com/yannickm95/lokalise-to-default-messages/commit/dab6a67bd2b75eb8ee74937298fd624137b6d4e1))
+* **deps:** update deps + package manager version ([827ae1f](https://github.com/yannickm95/lokalise-to-default-messages/commit/827ae1f1125bed1f2489a01ca2f3f85b15e2c831))
+
 ## [3.0.4](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.3...lokalise-to-default-messages-v3.0.4) (2024-05-03)
 
 
