@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.5](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.4...lokalise-to-default-messages-v3.0.5) (2024-06-13)
+
+
+### Dependencies
+
+* **deps:** bump @eslint/js from 9.1.1 to 9.3.0 ([#499](https://github.com/yannickm95/lokalise-to-default-messages/issues/499)) ([216f954](https://github.com/yannickm95/lokalise-to-default-messages/commit/216f954d3140b6d58eef652b2e858e7cd0fda101))
+* **deps:** bump @eslint/js from 9.3.0 to 9.4.0 ([#506](https://github.com/yannickm95/lokalise-to-default-messages/issues/506)) ([5a9a28f](https://github.com/yannickm95/lokalise-to-default-messages/commit/5a9a28f8c10dd031200c85dddd1d94b01b3501d6))
+* **deps:** bump eslint from 9.1.1 to 9.3.0 ([#500](https://github.com/yannickm95/lokalise-to-default-messages/issues/500)) ([dab6a67](https://github.com/yannickm95/lokalise-to-default-messages/commit/dab6a67bd2b75eb8ee74937298fd624137b6d4e1))
+* **deps:** bump eslint from 9.3.0 to 9.4.0 ([#508](https://github.com/yannickm95/lokalise-to-default-messages/issues/508)) ([c2d93ef](https://github.com/yannickm95/lokalise-to-default-messages/commit/c2d93efa3623e0262d62b0dcf961d99a508743a0))
+* **deps:** bump lint-staged from 15.2.5 to 15.2.6 ([#512](https://github.com/yannickm95/lokalise-to-default-messages/issues/512)) ([3cb7703](https://github.com/yannickm95/lokalise-to-default-messages/commit/3cb77033feaa6e1a972f4c51a3d32c5fb0daef2d))
+* **deps:** bump lint-staged from 15.2.6 to 15.2.7 ([#514](https://github.com/yannickm95/lokalise-to-default-messages/issues/514)) ([cfef55c](https://github.com/yannickm95/lokalise-to-default-messages/commit/cfef55c4df3304dc74f9f68c70681c1528417c95))
+* **deps:** bump prettier from 3.2.5 to 3.3.0 ([#507](https://github.com/yannickm95/lokalise-to-default-messages/issues/507)) ([e40864c](https://github.com/yannickm95/lokalise-to-default-messages/commit/e40864c7e717958b6a0f4e575bb0eba104b17714))
+* **deps:** bump prettier from 3.3.1 to 3.3.2 ([#511](https://github.com/yannickm95/lokalise-to-default-messages/issues/511)) ([b61a6ff](https://github.com/yannickm95/lokalise-to-default-messages/commit/b61a6ffcbb4abdb9c34f70a532fd20d12f72280b))
+* **deps:** update deps + package manager version ([827ae1f](https://github.com/yannickm95/lokalise-to-default-messages/commit/827ae1f1125bed1f2489a01ca2f3f85b15e2c831))
+* **deps:** update package manager version + update deps ([17b0437](https://github.com/yannickm95/lokalise-to-default-messages/commit/17b043783a10b0fcdf236ab5fa09c6d5068ba2c3))
+
 ## [3.0.4](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.3...lokalise-to-default-messages-v3.0.4) (2024-05-03)
 
 
