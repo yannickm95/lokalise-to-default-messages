@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Release please
         id: release
-        uses: google-github-actions/release-please-action@v4
+        uses: googleapis/release-please-action@v4
 
       - name: Checkout
         uses: actions/checkout@v4
