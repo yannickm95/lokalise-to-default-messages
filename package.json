@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "cli-progress": "^3.12.0",
-    "replace-in-file": "^7.2.0"
+    "replace-in-file": "^8.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
