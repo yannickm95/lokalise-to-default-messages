@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.6](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.5...lokalise-to-default-messages-v3.0.6) (2024-06-24)
+
+
+### Dependencies
+
+* **ci-deps:** use non deprecated release-please action ([34398ce](https://github.com/yannickm95/lokalise-to-default-messages/commit/34398ce9a70db04ec457e138f21c0e7d606d40c7))
+
 ## [3.0.5](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.4...lokalise-to-default-messages-v3.0.5) (2024-06-24)
 
 
