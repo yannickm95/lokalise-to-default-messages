@@ -3,7 +3,7 @@
  */
 import fs from 'fs';
 import path from 'path';
-import replace from 'replace-in-file';
+import { replaceInFileSync } from 'replace-in-file';
 import cliProgress from 'cli-progress';
 
 /**
@@ -55,15 +55,13 @@ export function toDefaultMessages(config) {
 function filesForKey(config) {
   return ({ key, value }) => {
     const regex = new RegExp(`'${key}'`, 'g');
-    const filesForKey = replace
-      .sync({
-        files: config.filesPath,
-        from: regex,
-        to: '',
-        hasChanged: true,
-        dry: true,
-      })
-      .filter(({ hasChanged }) => hasChanged);
+    const filesForKey = replaceInFileSync({
+      files: config.filesPath,
+      from: regex,
+      to: '',
+      hasChanged: true,
+      dry: true,
+    }).filter(({ hasChanged }) => hasChanged);
 
     if (config.checkDuplicates && filesForKey.length > 1) {
       errorLog.push(
@@ -130,7 +128,7 @@ function replaceContent(key, value) {
         formattedValue = `"${value}"`;
       }
 
-      replace.sync({
+      replaceInFileSync({
         files: file,
         from: regex,
         to: `defaultMessage: ${formattedValue}`,
