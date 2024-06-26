@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.7](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.6...lokalise-to-default-messages-v3.0.7) (2024-06-26)
+
+
+### Dependencies
+
+* **deps:** bump replace-in-file from 8.0.0 to 8.0.1 ([#522](https://github.com/yannickm95/lokalise-to-default-messages/issues/522)) ([74db118](https://github.com/yannickm95/lokalise-to-default-messages/commit/74db1181337ef044d26d8e89d6cdcb608719008b))
+
 ## [3.0.6](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.5...lokalise-to-default-messages-v3.0.6) (2024-06-24)
 
 
