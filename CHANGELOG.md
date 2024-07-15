@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.7](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.6...lokalise-to-default-messages-v3.0.7) (2024-07-15)
+
+
+### Dependencies
+
+* **deps:** bump prettier from 3.3.2 to 3.3.3 ([#531](https://github.com/yannickm95/lokalise-to-default-messages/issues/531)) ([f3984a0](https://github.com/yannickm95/lokalise-to-default-messages/commit/f3984a0dd4f6355139d20950ccb45a997313df1e))
+* **deps:** bump replace-in-file from 8.0.0 to 8.0.1 ([#522](https://github.com/yannickm95/lokalise-to-default-messages/issues/522)) ([74db118](https://github.com/yannickm95/lokalise-to-default-messages/commit/74db1181337ef044d26d8e89d6cdcb608719008b))
+* **deps:** bump replace-in-file from 8.0.1 to 8.0.2 ([#526](https://github.com/yannickm95/lokalise-to-default-messages/issues/526)) ([4b4a958](https://github.com/yannickm95/lokalise-to-default-messages/commit/4b4a958ff1306a9097b7a07d275b63be930c5ef8))
+* **deps:** bump replace-in-file from 8.0.2 to 8.1.0 ([#528](https://github.com/yannickm95/lokalise-to-default-messages/issues/528)) ([b81e363](https://github.com/yannickm95/lokalise-to-default-messages/commit/b81e36318019fdf0aacf70442ccf2d36e72c06d7))
+* **deps:** bump the eslint group with 2 updates ([#524](https://github.com/yannickm95/lokalise-to-default-messages/issues/524)) ([0dac9a8](https://github.com/yannickm95/lokalise-to-default-messages/commit/0dac9a899598215454a784476b3c83d20b0c847e))
+* **deps:** bump the eslint group with 2 updates ([#530](https://github.com/yannickm95/lokalise-to-default-messages/issues/530)) ([8c33e84](https://github.com/yannickm95/lokalise-to-default-messages/commit/8c33e843a9ca3ddc4a02d5ddad6f2f77c4e945de))
+
 ## [3.0.6](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.5...lokalise-to-default-messages-v3.0.6) (2024-06-24)
 
 
