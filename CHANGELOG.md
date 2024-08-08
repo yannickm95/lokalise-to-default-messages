@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.8](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.7...lokalise-to-default-messages-v3.0.8) (2024-08-08)
+
+
+### Dependencies
+
+* **deps:** bump @commitlint/cli in the commitlint group ([#541](https://github.com/yannickm95/lokalise-to-default-messages/issues/541)) ([c943ba4](https://github.com/yannickm95/lokalise-to-default-messages/commit/c943ba4f159910e1c9b616fe3ad3bb053b759c73))
+
 ## [3.0.7](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.6...lokalise-to-default-messages-v3.0.7) (2024-08-05)
 
 
