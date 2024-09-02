@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.8](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.7...lokalise-to-default-messages-v3.0.8) (2024-09-02)
+
+
+### Dependencies
+
+* **deps:** bump @commitlint/cli in the commitlint group ([#541](https://github.com/yannickm95/lokalise-to-default-messages/issues/541)) ([c943ba4](https://github.com/yannickm95/lokalise-to-default-messages/commit/c943ba4f159910e1c9b616fe3ad3bb053b759c73))
+* **deps:** bump husky from 9.1.4 to 9.1.5 ([#547](https://github.com/yannickm95/lokalise-to-default-messages/issues/547)) ([6878884](https://github.com/yannickm95/lokalise-to-default-messages/commit/6878884ec109acdfc887534b8a5321e7b8faad8a))
+* **deps:** bump lint-staged from 15.2.8 to 15.2.9 ([#545](https://github.com/yannickm95/lokalise-to-default-messages/issues/545)) ([ccc2557](https://github.com/yannickm95/lokalise-to-default-messages/commit/ccc255753618512cfba4bbef3e5fd87828a405ae))
+* **deps:** bump lint-staged from 15.2.9 to 15.2.10 ([#553](https://github.com/yannickm95/lokalise-to-default-messages/issues/553)) ([356c7c7](https://github.com/yannickm95/lokalise-to-default-messages/commit/356c7c740183cedae21833682248c72bda6a2aad))
+* **deps:** bump the commitlint group with 2 updates ([#551](https://github.com/yannickm95/lokalise-to-default-messages/issues/551)) ([2f73a89](https://github.com/yannickm95/lokalise-to-default-messages/commit/2f73a892489ca66725e5528e21c06c96124e1001))
+* **deps:** bump the eslint group with 2 updates ([#543](https://github.com/yannickm95/lokalise-to-default-messages/issues/543)) ([f8affd4](https://github.com/yannickm95/lokalise-to-default-messages/commit/f8affd437c1915dfa2f9072d7b66238ba781a38f))
+* **deps:** bump the eslint group with 2 updates ([#549](https://github.com/yannickm95/lokalise-to-default-messages/issues/549)) ([3b5c900](https://github.com/yannickm95/lokalise-to-default-messages/commit/3b5c9007a151311f8468e99d2a801ae19c3a2540))
+
 ## [3.0.7](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.6...lokalise-to-default-messages-v3.0.7) (2024-08-05)
 
 
