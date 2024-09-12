@@ -16,10 +16,10 @@ importers:
         version: 8.1.0
     devDependencies:
       '@commitlint/cli':
-        specifier: ^19.4.1
+        specifier: ^19.5.0
         version: 19.5.0(@types/node@22.5.4)(typescript@5.4.5)
       '@commitlint/config-conventional':
-        specifier: ^19.4.1
+        specifier: ^19.5.0
         version: 19.5.0
       '@eslint/js':
         specifier: ^9.10.0
@@ -28,7 +28,7 @@ importers:
         specifier: ^9.10.0
         version: 9.10.0(jiti@1.21.6)
       husky:
-        specifier: ^9.1.5
+        specifier: ^9.1.6
         version: 9.1.6
       lint-staged:
         specifier: ^15.2.10
@@ -212,8 +212,8 @@ packages:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
 
-  ansi-regex@6.0.1:
-    resolution: {integrity: sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA==}
+  ansi-regex@6.1.0:
+    resolution: {integrity: sha512-7HSX4QQb4CspciLpVFwyRe79O3xsIZDDLER21kERQ71oaPodF8jL725AgJMFAYbooIqolJoRLuM81SpeUkpkvA==}
     engines: {node: '>=12'}
 
   ansi-styles@3.2.1:
@@ -1244,7 +1244,7 @@ snapshots:
 
   ansi-regex@5.0.1: {}
 
-  ansi-regex@6.0.1: {}
+  ansi-regex@6.1.0: {}
 
   ansi-styles@3.2.1:
     dependencies:
@@ -1890,7 +1890,7 @@ snapshots:
 
   strip-ansi@7.1.0:
     dependencies:
-      ansi-regex: 6.0.1
+      ansi-regex: 6.1.0
 
   strip-final-newline@3.0.0: {}
 
