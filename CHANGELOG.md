@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.8](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.7...lokalise-to-default-messages-v3.0.8) (2024-09-27)
+
+
+### Dependencies
+
+* **deps:** bump @commitlint/cli in the commitlint group ([#541](https://github.com/yannickm95/lokalise-to-default-messages/issues/541)) ([c943ba4](https://github.com/yannickm95/lokalise-to-default-messages/commit/c943ba4f159910e1c9b616fe3ad3bb053b759c73))
+* **deps:** bump husky from 9.1.4 to 9.1.5 ([#547](https://github.com/yannickm95/lokalise-to-default-messages/issues/547)) ([6878884](https://github.com/yannickm95/lokalise-to-default-messages/commit/6878884ec109acdfc887534b8a5321e7b8faad8a))
+* **deps:** bump husky from 9.1.5 to 9.1.6 ([#558](https://github.com/yannickm95/lokalise-to-default-messages/issues/558)) ([a5da649](https://github.com/yannickm95/lokalise-to-default-messages/commit/a5da6492f4a9f7e2ec1ccb7f72d4147af0bdfd75))
+* **deps:** bump lint-staged from 15.2.8 to 15.2.9 ([#545](https://github.com/yannickm95/lokalise-to-default-messages/issues/545)) ([ccc2557](https://github.com/yannickm95/lokalise-to-default-messages/commit/ccc255753618512cfba4bbef3e5fd87828a405ae))
+* **deps:** bump lint-staged from 15.2.9 to 15.2.10 ([#553](https://github.com/yannickm95/lokalise-to-default-messages/issues/553)) ([356c7c7](https://github.com/yannickm95/lokalise-to-default-messages/commit/356c7c740183cedae21833682248c72bda6a2aad))
+* **deps:** bump the commitlint group with 2 updates ([#551](https://github.com/yannickm95/lokalise-to-default-messages/issues/551)) ([2f73a89](https://github.com/yannickm95/lokalise-to-default-messages/commit/2f73a892489ca66725e5528e21c06c96124e1001))
+* **deps:** bump the commitlint group with 2 updates ([#557](https://github.com/yannickm95/lokalise-to-default-messages/issues/557)) ([82f962a](https://github.com/yannickm95/lokalise-to-default-messages/commit/82f962a0e89bda2a5b1217a28d56bc84a4413778))
+* **deps:** bump the eslint group with 2 updates ([#543](https://github.com/yannickm95/lokalise-to-default-messages/issues/543)) ([f8affd4](https://github.com/yannickm95/lokalise-to-default-messages/commit/f8affd437c1915dfa2f9072d7b66238ba781a38f))
+* **deps:** bump the eslint group with 2 updates ([#549](https://github.com/yannickm95/lokalise-to-default-messages/issues/549)) ([3b5c900](https://github.com/yannickm95/lokalise-to-default-messages/commit/3b5c9007a151311f8468e99d2a801ae19c3a2540))
+* **deps:** bump the eslint group with 2 updates ([#555](https://github.com/yannickm95/lokalise-to-default-messages/issues/555)) ([8eabfb2](https://github.com/yannickm95/lokalise-to-default-messages/commit/8eabfb20c4b968976c96cbd8c60baa3298f1cccb))
+* **deps:** update (underlying) deps + dedupe ([cd63ea3](https://github.com/yannickm95/lokalise-to-default-messages/commit/cd63ea3fee85653510ec9b680636fcead9b5843f))
+* **deps:** update deps ([a1ad1be](https://github.com/yannickm95/lokalise-to-default-messages/commit/a1ad1be71bd630750ad829598a5bfc58742af55b))
+* **deps:** update underlying deps ([1526130](https://github.com/yannickm95/lokalise-to-default-messages/commit/1526130c1cd9002c8f80f34fd43590adfd51c34e))
+
+
+### Miscellaneous
+
+* update package manager version ([816d6a1](https://github.com/yannickm95/lokalise-to-default-messages/commit/816d6a173a5efcb41ad9ae29811237799ff54a58))
+* update package manager version ([339214c](https://github.com/yannickm95/lokalise-to-default-messages/commit/339214c7705448b3879eb60b618c99f3fe4e46d8))
+
 ## [3.0.7](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.6...lokalise-to-default-messages-v3.0.7) (2024-08-05)
 
 
