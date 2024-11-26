@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.9](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.8...lokalise-to-default-messages-v3.0.9) (2024-11-26)
+
+
+### Dependencies
+
+* **deps:** bump husky from 9.1.6 to 9.1.7 ([#575](https://github.com/yannickm95/lokalise-to-default-messages/issues/575)) ([28163fc](https://github.com/yannickm95/lokalise-to-default-messages/commit/28163fca33e993a242b5287bd3e646eae6b2dd1f))
+* **deps:** bump prettier from 3.3.3 to 3.4.0 ([#579](https://github.com/yannickm95/lokalise-to-default-messages/issues/579)) ([afaa85a](https://github.com/yannickm95/lokalise-to-default-messages/commit/afaa85aa601d5c87cd09b16c002ae83287079e00))
+* **deps:** bump the commitlint group with 2 updates ([#577](https://github.com/yannickm95/lokalise-to-default-messages/issues/577)) ([05ae27c](https://github.com/yannickm95/lokalise-to-default-messages/commit/05ae27c42398ed1ad7c36308a2ab3fb58ad72419))
+* **deps:** bump the eslint group with 2 updates ([#567](https://github.com/yannickm95/lokalise-to-default-messages/issues/567)) ([45f22d0](https://github.com/yannickm95/lokalise-to-default-messages/commit/45f22d024cba500882a14472702f6cd98b12c87b))
+* **deps:** bump the eslint group with 2 updates ([#569](https://github.com/yannickm95/lokalise-to-default-messages/issues/569)) ([cba6652](https://github.com/yannickm95/lokalise-to-default-messages/commit/cba665274a170af5e8413062f6386f7684bb8341))
+* **deps:** bump the eslint group with 2 updates ([#572](https://github.com/yannickm95/lokalise-to-default-messages/issues/572)) ([034e03b](https://github.com/yannickm95/lokalise-to-default-messages/commit/034e03bf066b0fec09326bde6833f75eda241756))
+* **deps:** update underlying deps ([91a5dd2](https://github.com/yannickm95/lokalise-to-default-messages/commit/91a5dd2149630c209c468ff9bad55d170417181f))
+
+
+### Miscellaneous
+
+* update package manager version ([300ab03](https://github.com/yannickm95/lokalise-to-default-messages/commit/300ab03e7a6362510db011f0c12ec82dce28c714))
+* update package manager version ([cf80e74](https://github.com/yannickm95/lokalise-to-default-messages/commit/cf80e74ffdefa92906e918676285886fa0fe860d))
+
 ## [3.0.8](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.7...lokalise-to-default-messages-v3.0.8) (2024-10-15)
 
 
