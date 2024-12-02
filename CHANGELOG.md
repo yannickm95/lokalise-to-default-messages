@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.10](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.9...lokalise-to-default-messages-v3.0.10) (2024-12-02)
+
+
+### Dependencies
+
+* **deps:** bump prettier from 3.4.0 to 3.4.1 ([#581](https://github.com/yannickm95/lokalise-to-default-messages/issues/581)) ([81f4067](https://github.com/yannickm95/lokalise-to-default-messages/commit/81f4067ef5e2a1afe7376b8ae79e62aef8e2ecac))
+* **deps:** bump the eslint group with 2 updates ([#583](https://github.com/yannickm95/lokalise-to-default-messages/issues/583)) ([7756bd2](https://github.com/yannickm95/lokalise-to-default-messages/commit/7756bd212b504192e1b2ad7651a2afe28fe7f1ae))
+
 ## [3.0.9](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.8...lokalise-to-default-messages-v3.0.9) (2024-11-26)
 
 
