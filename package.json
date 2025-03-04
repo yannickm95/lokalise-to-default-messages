@@ -1,6 +1,6 @@
 {
   "name": "lokalise-to-default-messages",
-  "version": "3.0.10",
+  "version": "3.0.11",
   "description": "Utility to update defaultMessages in source code with values from translation json file",
   "homepage": "https://github.com/yannickm95/lokalise-to-default-messages#readme",
   "author": "Yannick Maes <yannick.maes@nipro-group.com>",

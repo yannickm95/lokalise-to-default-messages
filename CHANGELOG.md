@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.11](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.10...lokalise-to-default-messages-v3.0.11) (2025-03-04)
+
+
+### Bug Fixes
+
+* account for double quotes in `replaceContent` ([584b7a7](https://github.com/yannickm95/lokalise-to-default-messages/commit/584b7a76d8dcf5f03534d2fee6ebad8c8ef09cd4))
+
 ## [3.0.10](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.9...lokalise-to-default-messages-v3.0.10) (2025-03-04)
 
 
