@@ -54,10 +54,9 @@ export function toDefaultMessages(config) {
 
 function filesForKey(config) {
   return ({ key, value }) => {
-    const regex = new RegExp(`("|')${key}("|')`, 'g');
     const filesForKey = replaceInFileSync({
       files: config.filesPath,
-      from: regex,
+      from: matcher(key, true, 'g'),
       to: '',
       hasChanged: true,
       dry: true,
@@ -91,25 +90,23 @@ function replaceContent(key, value) {
       .readFileSync(file, 'utf8')
       .replace(/(\r\n|\n|\r)/gm, '')
       .replace(/ {2,10}/gm, ' ')
-      .replace(/, \}/g, ' }');
-
-    // Current solution, can't get split working with a regex
-    const doubleQuote = new RegExp(`id: ("|')${key}("|'), defaultMessage: "`);
-    const singleQuote = new RegExp(`id: ("|')${key}("|'), defaultMessage: '`);
-    const hasDoubleQuotes = !!content.match(doubleQuote)?.[0];
+      .replace(/,\s*\}/g, '}');
 
     let oldValue;
-    try {
-      oldValue = content
-        .split(hasDoubleQuotes ? doubleQuote : singleQuote)[1]
-        .split(hasDoubleQuotes ? `" }` : `' }`)[0];
-    } catch (_e) {
-      errorLog.push('* Value for id was not found in file.');
+    const matches = content.match(matcher(key, false, undefined));
+    const match = matches?.[1] || matches?.[2] || matches?.[3];
+
+    if (match) {
+      oldValue = match;
+    } else {
+      errorLog.push(`* Value for id "${key}" was not found in file (${path.relative(process.cwd(), file)})`);
       errorCount += 1;
       return;
     }
 
-    if (oldValue === value || !oldValue) return;
+    if (oldValue === value || !oldValue) {
+      return;
+    }
 
     const regex = new RegExp(
       `defaultMessage:((\n|\r|\r\n)? {1,10}('|"))` + oldValue.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + `('|")`,
@@ -120,12 +117,12 @@ function replaceContent(key, value) {
       const valueHasDoubleQuotes = value.includes(`"`);
       const valueHasSingleQuotes = value.includes(`'`);
 
-      let formattedValue = `'${value}'`;
+      let formattedValue = `"${value}"`;
       if (valueHasSingleQuotes && valueHasDoubleQuotes) {
         formattedValue = `\`${value}\``;
       }
-      if (valueHasSingleQuotes) {
-        formattedValue = `"${value}"`;
+      if (valueHasDoubleQuotes) {
+        formattedValue = `'${value}'`;
       }
 
       replaceInFileSync({
@@ -197,6 +194,16 @@ function getKeysDiff(data, ot) {
   const filteredData = data.filter(({ key, value }) => !ot[key] || (ot[key] && value !== ot[key]));
 
   return filteredData;
+}
+
+function matcher(key, partial, flags) {
+  const whiteSpace = '(?:\\s|\t|\n|\r)*';
+  const quotes = `(?:"|')`;
+  const appendage = !partial
+    ? `${whiteSpace}(?:(?:")([^"]+)(?:")|(?:')([^']+)(?:')|(?:\`)([^\`]+)(?:\`))${whiteSpace}}`
+    : '';
+
+  return new RegExp(`id:${whiteSpace}${quotes}${key}${quotes},${whiteSpace}defaultMessage:${appendage}`, flags);
 }
 
 export default {
