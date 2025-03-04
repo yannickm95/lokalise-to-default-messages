@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.11...lokalise-to-default-messages-v3.1.0) (2025-03-04)
+
+
+### Features
+
+* improve matching logic ([35708b8](https://github.com/yannickm95/lokalise-to-default-messages/commit/35708b8bcf5498c0da2d922e5abd1e3c8546b2a0))
+
 ## [3.0.11](https://github.com/yannickm95/lokalise-to-default-messages/compare/lokalise-to-default-messages-v3.0.10...lokalise-to-default-messages-v3.0.11) (2025-03-04)
 
 
