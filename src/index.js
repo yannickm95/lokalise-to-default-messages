@@ -94,9 +94,9 @@ function replaceContent(key, value) {
       .replace(/, \}/g, ' }');
 
     // Current solution, can't get split working with a regex
-    const doubleQuote = `id: '${key}', defaultMessage: "`;
-    const singleQuote = `id: '${key}', defaultMessage: '`;
-    const hasDoubleQuotes = content.includes(doubleQuote);
+    const doubleQuote = new RegExp(`id: ("|')${key}("|'), defaultMessage: "`);
+    const singleQuote = new RegExp(`id: ("|')${key}("|'), defaultMessage: '`);
+    const hasDoubleQuotes = !!content.match(doubleQuote)?.[0];
 
     let oldValue;
     try {
