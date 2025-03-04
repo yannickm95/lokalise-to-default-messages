@@ -54,7 +54,7 @@ export function toDefaultMessages(config) {
 
 function filesForKey(config) {
   return ({ key, value }) => {
-    const regex = new RegExp(`'${key}'`, 'g');
+    const regex = new RegExp(`("|')${key}("|')`, 'g');
     const filesForKey = replaceInFileSync({
       files: config.filesPath,
       from: regex,
